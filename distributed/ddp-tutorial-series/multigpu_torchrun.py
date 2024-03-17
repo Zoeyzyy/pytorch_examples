@@ -11,6 +11,7 @@ import os
 
 
 def ddp_setup():
+    print("setup")
     init_process_group(backend="nccl")
     torch.cuda.set_device(int(os.environ["LOCAL_RANK"]))
 
@@ -75,6 +76,7 @@ class Trainer:
 
 
 def load_train_objs():
+    print("loading")
     train_set = MyTrainDataset(2048)  # load your dataset
     model = torch.nn.Linear(20, 1)  # load your model
     optimizer = torch.optim.SGD(model.parameters(), lr=1e-3)
@@ -82,6 +84,7 @@ def load_train_objs():
 
 
 def prepare_dataloader(dataset: Dataset, batch_size: int):
+    print("prepare")
     return DataLoader(
         dataset,
         batch_size=batch_size,
@@ -101,11 +104,13 @@ def main(save_every: int, total_epochs: int, batch_size: int, snapshot_path: str
 
 
 if __name__ == "__main__":
+    print("main")
     import argparse
     parser = argparse.ArgumentParser(description='simple distributed training job')
     parser.add_argument('total_epochs', type=int, help='Total epochs to train the model')
     parser.add_argument('save_every', type=int, help='How often to save a snapshot')
     parser.add_argument('--batch_size', default=32, type=int, help='Input batch size on each device (default: 32)')
+    parser.add_argument('--local-rank', default=0, type=int)
     args = parser.parse_args()
     
     main(args.save_every, args.total_epochs, args.batch_size)

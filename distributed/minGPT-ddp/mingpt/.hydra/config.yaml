@@ -14,11 +14,7 @@ trainer_config:
   grad_norm_clip: 1.0
   snapshot_path: gpt_snapshot.pt
   save_every: 10
-  use_amp: True
+  use_amp: true
 optimizer_config:
   weight_decay: 0.1
   learning_rate: 0.0003
-
-hydra:
-  run:
-    dir: ./

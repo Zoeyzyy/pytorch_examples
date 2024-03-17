@@ -1,0 +1,10 @@
+2024-03-11 23:43:01.827969 [GPU0] Epoch 1 | Iter 0 | Train Loss
+2024-03-11 23:43:35.723704 [GPU0] Epoch 1 | Iter 0 | Eval Loss
+2024-03-11 23:43:36.723081 [GPU0] Epoch 2 | Iter 0 | Train Loss
+2024-03-11 23:44:09.247345 [GPU0] Epoch 2 | Iter 0 | Eval Loss
+2024-03-11 23:44:10.263236 [GPU0] Epoch 3 | Iter 0 | Train Loss
+2024-03-11 23:44:45.011877 [GPU0] Epoch 3 | Iter 0 | Eval Loss
+2024-03-11 23:44:45.975036 [GPU0] Epoch 4 | Iter 0 | Train Loss
+2024-03-11 23:45:18.475261 [GPU0] Epoch 4 | Iter 0 | Eval Loss
+2024-03-11 23:45:19.490866 [GPU0] Epoch 5 | Iter 0 | Train Loss
+2024-03-11 23:45:54.331477 [GPU0] Epoch 5 | Iter 0 | Eval Loss

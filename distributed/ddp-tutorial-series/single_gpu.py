@@ -3,7 +3,6 @@ import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 from datautils import MyTrainDataset
 
-
 class Trainer:
     def __init__(
         self,

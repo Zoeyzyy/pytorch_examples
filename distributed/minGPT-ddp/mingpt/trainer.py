@@ -114,6 +114,9 @@ class Trainer:
         dataloader.sampler.set_epoch(epoch)
         for iter, (source, targets) in enumerate(dataloader):
             step_type = "Train" if train else "Eval"
+            if iter == 0:
+                import datetime
+                print(datetime.datetime.now(), f"[GPU{self.global_rank}] Epoch {epoch} | Iter {iter} | {step_type} Loss", file=open('step.txt','a'))
             source = source.to(self.local_rank)
             targets = targets.to(self.local_rank)
             batch_loss = self._run_batch(source, targets, train)
@@ -145,5 +148,5 @@ class Trainer:
             if self.local_rank == 0 and epoch % self.save_every == 0:
                 self._save_snapshot(epoch)
             # eval run
-            if self.test_loader:
-                self._run_epoch(epoch, self.test_loader, train=False)
+            # if self.test_loader:
+            #     self._run_epoch(epoch, self.test_loader, train=False)
