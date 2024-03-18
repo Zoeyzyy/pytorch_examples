@@ -57,9 +57,6 @@ sums = []
 for time_key, sum_value in time_sums.items():
     times.append(time_key)  # 转换时间格式为字符串
     sums.append(sum_value)
-times = times[::2]
-times = [x/2 for x in times]
-sums = sums[::2]
 print(times)
 print(sums)
 
