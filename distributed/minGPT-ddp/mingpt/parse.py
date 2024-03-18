@@ -64,7 +64,7 @@ print(sums)
 plt.bar(times, sums, color='skyblue')
 
 # 添加标题和标签
-plt.title('Packet length Sum by Epoch')
+plt.title('Packet length Sum by Epoch (106 reciever)')
 plt.xlabel('Epoch')
 plt.ylabel('Packet length Sum')
 
