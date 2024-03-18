@@ -53,15 +53,18 @@ for line in lines:
         parts = line.split()
         time_str = parts[0]  # 时间字符串
         time_str = time_str[:accuracy]
-        length_index = parts.index('length')  # 查找 'length' 的位置
-        x_index = length_index + 1  # 数字的位置在 'length' 之后
+        length_index = [i for i, part in enumerate(parts) if 'length' in part]  # 查找 'length' 的位置
+        x_index = length_index[0] + 1  # 数字的位置在 'length' 之后
         if x_index < len(parts) :
-            if not parts[x_index].isdigit():
-                parts[x_index] = parts[x_index][:-1]
-            x = float(parts[x_index])
-            if x != 0:
-                # 将数字累加到对应时间点
-                time_sums[time_str] = time_sums.get(time_str, 0) + x
+            try:
+                if not parts[x_index].isdigit():
+                    parts[x_index] = parts[x_index][:-1]
+                x = float(parts[x_index])
+                if x != 0:
+                    # 将数字累加到对应时间点
+                    time_sums[time_str] = time_sums.get(time_str, 0) + x
+            except ValueError:
+                print(line)
 
 # 画图
 import matplotlib.pyplot as plt
