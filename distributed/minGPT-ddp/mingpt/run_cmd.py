@@ -2,6 +2,8 @@ local_ip = 112
 
 all_ip = [106, 108, 112]
 
+file.write("sudo rm ../../../*.pcap \n")
+
 # 打开文件以写入模式
 with open("cmd.sh", "w") as file:
     for ip in all_ip:
