@@ -1,9 +1,10 @@
-local_ip = 106
+local_ip = 108
 
 all_ip = [106, 108, 112]
 
 # 打开文件以写入模式
 with open("sh_parse.sh", "w") as file:
+    file.write("rm ./*.png \n")
     for ip in all_ip:
         # 向文件中写入内容
         if(ip != local_ip):
