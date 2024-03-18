@@ -84,6 +84,10 @@ for time_key, sum_value in time_sums.items():
 print(times)
 print(sums)
 
+with open("TM.txt", "a") as file:
+    print(args.reciever + 'reciever, ' + args.sender +' sender', file)
+    print(sums)
+
 # 绘制柱状图
 plt.bar(times, sums, color='skyblue')
 

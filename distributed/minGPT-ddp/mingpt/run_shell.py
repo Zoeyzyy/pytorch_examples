@@ -2,6 +2,9 @@ local_ip = 108
 
 all_ip = [106, 108, 112]
 
+with open("TM.txt", "w") as file:
+    pass
+
 # 打开文件以写入模式
 with open("sh_parse.sh", "w") as file:
     file.write("rm ./*.png \n")
