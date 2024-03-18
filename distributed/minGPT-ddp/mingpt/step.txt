@@ -8,3 +8,5 @@
 2024-03-11 23:45:18.475261 [GPU0] Epoch 4 | Iter 0 | Eval Loss
 2024-03-11 23:45:19.490866 [GPU0] Epoch 5 | Iter 0 | Train Loss
 2024-03-11 23:45:54.331477 [GPU0] Epoch 5 | Iter 0 | Eval Loss
+2024-03-18 16:48:00.730155 [GPU0] Epoch 1 | Iter 0 | Train Loss
+2024-03-18 16:48:30.488989 [GPU0] Epoch 2 | Iter 0 | Train Loss
