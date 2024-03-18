@@ -3,6 +3,8 @@ from datetime import datetime
 pcap_name = "../../../1.pcap"
 epochfile_name = "step.txt"
 
+accuracy = 12
+
 # 读取文件
 with open(epochfile_name, 'r') as epochfile:
     lines = epochfile.readlines()
@@ -36,7 +38,7 @@ for line in lines:
     if '[P.]' in line and 'length' in line:
         parts = line.split()
         time_str = parts[0]  # 时间字符串
-        time_str = time_str[:14]
+        time_str = time_str[:accuracy]
         length_index = parts.index('length')  # 查找 'length' 的位置
         x_index = length_index + 1  # 数字的位置在 'length' 之后
         if x_index < len(parts) :
@@ -55,7 +57,7 @@ times = []
 sums = []
 i = 0
 for time_key, sum_value in time_sums.items():
-    times.append(float(time_key[6:14]))
+    times.append(float(time_key[6:accuracy]))
     sums.append(sum_value)
 print(times[0])
 print(len(times))
@@ -74,10 +76,14 @@ times = adjust_list(times)
 
 # 绘制柱状图
 plt.bar(times, sums, color='skyblue')
-plt.xticks(times[::100])
+gap_x = (int)(len(times) / 5)
+plt.xticks(times[::gap_x])
 
 # 添加标题和标签
-plt.title('Packet length Sum by Time')
+if accuracy == 8:
+    plt.title('Packet length Sum by Time (112 reciever and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+else:
+    plt.title('Packet length Sum by Time (112 reciever and ' + str(10 ** -(accuracy - 9.0)) + 's )')
 plt.xlabel('Time(s)')
 plt.ylabel('Packet length Sum(Bytes)')
 
@@ -86,4 +92,3 @@ plt.tight_layout()
 
 # 保存图像
 plt.savefig('sum_by_time.png')
-
