@@ -1,6 +1,16 @@
 from datetime import datetime
+import argparse
 
-pcap_name = "../../../1.pcap"
+# 创建解析器
+parser = argparse.ArgumentParser(description='Process some parameters.')
+
+# 添加参数
+parser.add_argument('--pcap_file', help='pcap file name')
+
+# 解析命令行参数
+args = parser.parse_args()
+
+pcap_name = "../../../"+ args.pcap_file +".pcap"
 epochfile_name = "step.txt"
 
 # 读取文件
@@ -72,5 +82,5 @@ plt.ylabel('Packet length Sum')
 plt.tight_layout()
 
 # 保存图像
-plt.savefig('sum_by_time.png')
+plt.savefig('sum_by_epoch_'+ args.pcap_file + '.png')
 

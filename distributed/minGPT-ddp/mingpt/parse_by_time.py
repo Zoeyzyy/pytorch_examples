@@ -1,9 +1,21 @@
 from datetime import datetime
+import argparse
 
-pcap_name = "../../../1.pcap"
+# 创建解析器
+parser = argparse.ArgumentParser(description='Process some parameters.')
+
+# 添加参数
+parser.add_argument('--accuracy', help='time gap')
+parser.add_argument('--pcap_file', help='pcap file name')
+
+# 解析命令行参数
+args = parser.parse_args()
+
+
+pcap_name = "../../../"+ args.pcap_file +".pcap"
 epochfile_name = "step.txt"
 
-accuracy = 12
+accuracy = (int)(args.accuracy)
 
 # 读取文件
 with open(epochfile_name, 'r') as epochfile:
@@ -91,4 +103,7 @@ plt.ylabel('Packet length Sum(Bytes)')
 plt.tight_layout()
 
 # 保存图像
-plt.savefig('sum_by_time.png')
+if accuracy == 8:
+    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.pcap_file + '.png')
+else:
+    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.pcap_file + '.png')
