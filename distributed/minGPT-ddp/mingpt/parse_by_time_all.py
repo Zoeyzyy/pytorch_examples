@@ -117,8 +117,8 @@ print(len(times))
 print(len(sums))
 
 # 初始化 times 和 sums 列表
-new_times = [i * 10 ** -(accuracy - 9.0) for i in range((int)(111 * 10 ** (accuracy - 9.0)))]  # 0 到 110，每个间隔为 0.001 秒
-new_sums = [0] * (int)(111 * 10 ** (accuracy - 9.0))
+new_times = [i * 10 ** -(accuracy - 9.0) for i in range((int)(800 * 10 ** (accuracy - 9.0)))]  # 0 到 110，每个间隔为 0.001 秒
+new_sums = [0] * (int)(800 * 10 ** (accuracy - 9.0))
 
 # 将已有的数据填充到新的列表中
 for i, time in enumerate(times):
