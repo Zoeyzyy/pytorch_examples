@@ -85,8 +85,10 @@ print(times)
 print(sums)
 
 with open("TM.txt", "a") as file:
-    print(args.reciever + 'reciever, ' + args.sender +' sender', file)
-    print(sums)
+    s = args.reciever + 'reciever, ' + args.sender +' sender'
+    print(str(s), file=file)
+    formatted_list = '[' + ', '.join(map(repr, sums)) + ']\n'
+    print(formatted_list, file=file)
 
 # 绘制柱状图
 plt.bar(times, sums, color='skyblue')
