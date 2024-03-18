@@ -116,34 +116,36 @@ for time_key, sum_value in time_sums.items():
 print(len(times))
 print(len(sums))
 
-def adjust_list(lst):
-    for i in range(1, len(lst)):
-        if lst[i] < lst[i - 1]:
-            # 当前数值比前一个数值小
-            for j in range(i, len(lst)):
-                lst[j] += 60
-    first_element = lst[0]
-    return [x - first_element for x in lst]
+# 初始化 times 和 sums 列表
+new_times = [i * 10 ** -(accuracy - 9.0) for i in range((int)(111 * 10 ** (accuracy - 9.0)))]  # 0 到 110，每个间隔为 0.001 秒
+new_sums = [0] * (int)(111 * 10 ** (accuracy - 9.0))
 
-if len(times) > 0:
-    times = adjust_list(times)
+# 将已有的数据填充到新的列表中
+for i, time in enumerate(times):
+    # 找到对应的索引，由于时间单位为 0.001 秒，因此乘以 1000 转换为整数索引
+    index = int(time * 10 ** (accuracy - 9.0))
+    if index < len(new_times):
+        new_sums[index] = sums[i]
+
+times = new_times
+sums = new_sums
 
 # 绘制柱状图
 plt.bar(times, sums, color='skyblue')
-gap_x = max((int)(len(times) / 3), 1)
+gap_x = max((int)(len(times) / 5), 1)
 plt.xticks(times[::gap_x])
 
 # 添加标题和标签
 if accuracy == 8:
     if args.from_to == "from":
-        plt.title('Packet length Sum by Time ( from 112 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+        plt.title('Packet length Sum by Time ( from 108 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
     else:
-        plt.title('Packet length Sum by Time ( to 112 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+        plt.title('Packet length Sum by Time ( to 108 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
 else:
     if args.from_to == "from":
-        plt.title('Packet length Sum by Time ( from 112 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+        plt.title('Packet length Sum by Time ( from 108 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
     else:
-        plt.title('Packet length Sum by Time ( to 112 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+        plt.title('Packet length Sum by Time ( to 108 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
 plt.xlabel('Time(s)')
 plt.ylabel('Packet length Sum(Bytes)')
 
@@ -152,6 +154,6 @@ plt.tight_layout()
 
 # 保存图像
 if accuracy == 8:
-    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.from_to + 'all112.png')
+    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.from_to + 'all108.png')
 else:
-    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.from_to + 'all112.png')
+    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.from_to + 'all108.png')
