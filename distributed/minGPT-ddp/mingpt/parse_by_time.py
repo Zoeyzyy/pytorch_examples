@@ -7,6 +7,8 @@ parser = argparse.ArgumentParser(description='Process some parameters.')
 # 添加参数
 parser.add_argument('--accuracy', help='time gap')
 parser.add_argument('--pcap_file', help='pcap file name')
+parser.add_argument('--sender')
+parser.add_argument('--reciever')
 
 # 解析命令行参数
 args = parser.parse_args()
@@ -88,14 +90,14 @@ times = adjust_list(times)
 
 # 绘制柱状图
 plt.bar(times, sums, color='skyblue')
-gap_x = (int)(len(times) / 5)
+gap_x = max((int)(len(times) / 5), 1)
 plt.xticks(times[::gap_x])
 
 # 添加标题和标签
 if accuracy == 8:
-    plt.title('Packet length Sum by Time (112 reciever and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+    plt.title('Packet length Sum by Time ('+ args.reciever + 'reciever, ' + args.sender +' sender and ' + str(10 ** -(accuracy - 8.0)) + 's )')
 else:
-    plt.title('Packet length Sum by Time (112 reciever and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+    plt.title('Packet length Sum by Time ('+ args.reciever + 'reciever, ' + args.sender +' sender and ' + str(10 ** -(accuracy - 9.0)) + 's )')
 plt.xlabel('Time(s)')
 plt.ylabel('Packet length Sum(Bytes)')
 

@@ -6,6 +6,8 @@ parser = argparse.ArgumentParser(description='Process some parameters.')
 
 # 添加参数
 parser.add_argument('--pcap_file', help='pcap file name')
+parser.add_argument('--sender')
+parser.add_argument('--reciever')
 
 # 解析命令行参数
 args = parser.parse_args()
@@ -74,7 +76,7 @@ print(sums)
 plt.bar(times, sums, color='skyblue')
 
 # 添加标题和标签
-plt.title('Packet length Sum by Epoch (106 reciever)')
+plt.title('Packet length Sum by Epoch ('+ args.reciever + 'reciever, ' + args.sender +' sender )')
 plt.xlabel('Epoch')
 plt.ylabel('Packet length Sum')
 
