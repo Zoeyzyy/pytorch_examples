@@ -30,6 +30,10 @@ def find_files_with_pattern(folder_path, pattern):
 
     return matching_files
 
+def time_to_float(time_str):
+    minutes, seconds = map(float, time_str.split(':'))
+    return minutes * 60 + seconds
+
 # 定义要搜索的文件夹路径
 folder_path = "../../../"
 
@@ -61,24 +65,23 @@ for line in lines:
 # 创建一个字典来存储每个时间点的累加数字
 time_sums = {}
 
+def find_max_key_less_than_x(dictionary, x):
+    max_key = None
+    for key in dictionary.keys():
+        if key < x:
+            if max_key is None or key > max_key:
+                max_key = key
+    return max_key
+
+import re
+def is_valid_time(time_str):
+    pattern = r'^\d{2}:\d{2}:\d{2}\.\d+$'
+    return bool(re.match(pattern, time_str))
+
 for pcap_name in pcap_names:
     # 读取文件
     with open(pcap_name, 'r') as file:
         lines = file.readlines()
-
-    def find_max_key_less_than_x(dictionary, x):
-        max_key = None
-        for key in dictionary.keys():
-            if key < x:
-                if max_key is None or key > max_key:
-                    max_key = key
-        return max_key
-
-    import re
-
-    def is_valid_time(time_str):
-        pattern = r'^\d{2}:\d{2}:\d{2}\.\d+$'
-        return bool(re.match(pattern, time_str))
 
     # 遍历每一行
     for line in lines:
@@ -111,7 +114,7 @@ times = []
 sums = []
 i = 0
 for time_key, sum_value in time_sums.items():
-    times.append(float(time_key[6:accuracy]))
+    times.append(time_to_float(time_key[3:accuracy]))
     sums.append(sum_value)
 print(len(times))
 print(len(sums))
@@ -130,13 +133,24 @@ for i, time in enumerate(times):
 times = new_times
 sums = new_sums
 
+step2time_index = []
+with open('step.txt', 'r') as stepfile:
+    lines = stepfile.readlines()
+    for line in lines:
+        line = line.split()
+        step_time = time_to_float(line[1][3:accuracy])
+        time_index = int(step_time * 10 ** (accuracy - 9.0))
+        step2time_index.append(time_index)        
+
 import numpy as np
 
 # 将列表写入文本文件
 if args.from_to == "from":
-    np.savetxt('Sum_by_Time_from108_' + str(10 ** -(accuracy - 9.0)) , sums)
+    np.savetxt('Sum_by_Time_from106_' + str(10 ** -(accuracy - 9.0)) , sums)
 else:
-    np.savetxt('Sum_by_Time_to108_' + str(10 ** -(accuracy - 9.0)), sums)
+    np.savetxt('Sum_by_Time_to106_' + str(10 ** -(accuracy - 9.0)), sums)
+
+np.savetxt('step2time_index_106', step2time_index)
 
 print("savetxt")
 
@@ -148,14 +162,14 @@ plt.xticks(times[::gap_x])
 # 添加标题和标签
 if accuracy == 8:
     if args.from_to == "from":
-        plt.title('Packet length Sum by Time ( from 108 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+        plt.title('Packet length Sum by Time ( from 106 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
     else:
-        plt.title('Packet length Sum by Time ( to 108 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+        plt.title('Packet length Sum by Time ( to 106 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
 else:
     if args.from_to == "from":
-        plt.title('Packet length Sum by Time ( from 108 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+        plt.title('Packet length Sum by Time ( from 106 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
     else:
-        plt.title('Packet length Sum by Time ( to 108 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+        plt.title('Packet length Sum by Time ( to 106 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
 plt.xlabel('Time(s)')
 plt.ylabel('Packet length Sum(Bytes)')
 
@@ -164,6 +178,6 @@ plt.tight_layout()
 
 # 保存图像
 if accuracy == 8:
-    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.from_to + 'all108.png')
+    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.from_to + 'all106.png')
 else:
-    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.from_to + 'all108.png')
+    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.from_to + 'all106.png')
