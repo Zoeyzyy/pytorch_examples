@@ -150,7 +150,7 @@ if args.from_to == "from":
 else:
     np.savetxt('Sum_by_Time_to106_' + str(10 ** -(accuracy - 9.0)), sums)
 
-np.savetxt('step2time_index_106', step2time_index)
+np.savetxt('step2time_index_106_' + str(accuracy), step2time_index)
 
 print("savetxt")
 
