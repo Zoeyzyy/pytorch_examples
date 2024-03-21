@@ -109,6 +109,15 @@ for pcap_name in pcap_names:
 # 画图
 import matplotlib.pyplot as plt
 
+step2time_index = []
+with open('step.txt', 'r') as stepfile:
+    lines = stepfile.readlines()
+    for line in lines:
+        line = line.split()
+        step_time = time_to_float(line[1][3:accuracy])
+        time_index = int(step_time * 10 ** (accuracy - 9.0))
+        step2time_index.append(time_index)     
+
 # 提取时间和累加值
 times = []
 sums = []
@@ -126,21 +135,12 @@ new_sums = [0] * (int)(800 * 10 ** (accuracy - 9.0))
 # 将已有的数据填充到新的列表中
 for i, time in enumerate(times):
     # 找到对应的索引，由于时间单位为 0.001 秒，因此乘以 1000 转换为整数索引
-    index = int(time * 10 ** (accuracy - 9.0))
+    index = int(time * 10 ** (accuracy - 9.0)) - step2time_index[0]
     if index < len(new_times):
         new_sums[index] = sums[i]
 
 times = new_times
-sums = new_sums
-
-step2time_index = []
-with open('step.txt', 'r') as stepfile:
-    lines = stepfile.readlines()
-    for line in lines:
-        line = line.split()
-        step_time = time_to_float(line[1][3:accuracy])
-        time_index = int(step_time * 10 ** (accuracy - 9.0))
-        step2time_index.append(time_index)        
+sums = new_sums   
 
 import numpy as np
 
