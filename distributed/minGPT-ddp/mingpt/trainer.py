@@ -112,7 +112,7 @@ class Trainer:
 
     def _run_epoch(self, epoch: int, dataloader: DataLoader, train: bool = True):
         import datetime
-        print(datetime.datetime.now(), f"[GPU{self.global_rank}] Epoch {epoch} | Iter {iter} | {step_type} Loss", file=open('step.txt','a'))
+        print(datetime.datetime.now(), f"[GPU{self.global_rank}] Epoch {epoch} | {step_type} Loss", file=open('step.txt','a'))
         dataloader.sampler.set_epoch(epoch)
         for iter, (source, targets) in enumerate(dataloader):
             step_type = "Train" if train else "Eval"
