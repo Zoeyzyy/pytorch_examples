@@ -8,12 +8,12 @@ gpt_config:
   n_head: 8
   n_embd: 512
 trainer_config:
-  max_epochs: 10
-  batch_size: 216
+  max_epochs: 100
+  batch_size: 512
   data_loader_workers: 4
   grad_norm_clip: 1.0
   snapshot_path: gpt_snapshot.pt
-  save_every: 20
+  save_every: 200
   use_amp: True
 optimizer_config:
   weight_decay: 0.1
