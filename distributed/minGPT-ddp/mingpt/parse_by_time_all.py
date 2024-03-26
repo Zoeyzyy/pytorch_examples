@@ -151,11 +151,11 @@ sums = new_sums
 
 # 将列表Sum_by_time和step2time_index写入文本文件
 if args.from_to == "from":
-    np.savetxt('./Sum_by_time/Sum_by_Time_from106_' + str(10 ** -(accuracy - 9.0)) , sums)
+    np.savetxt('./Sum_by_time/Sum_by_Time_from112_' + str(10 ** -(accuracy - 9.0)) , sums)
 else:
-    np.savetxt('./Sum_by_time/Sum_by_Time_to106_' + str(10 ** -(accuracy - 9.0)), sums)
+    np.savetxt('./Sum_by_time/Sum_by_Time_to112_' + str(10 ** -(accuracy - 9.0)), sums)
 
-np.savetxt('./step2time_index/step2time_index_106_' + str(accuracy), step2time_index)
+np.savetxt('./step2time_index/step2time_index_112_' + str(accuracy), step2time_index)
 
 print("savetxt")
 
@@ -165,7 +165,7 @@ print("savetxt")
 if hasattr(args, 'epoch_num') and args.epoch_num is not None:
     epoch_num = (int)(args.epoch_num)
     x_sum_by_time_all = new_times[: (int)((step2time_index[epoch_num] - step2time_index[0]) * 10 ** (accuracy - 9.0))]
-    y_sum_by_time_all = new_sumes[: (int)((step2time_index[epoch_num] - step2time_index[0]) * 10 ** (accuracy - 9.0))]
+    y_sum_by_time_all = new_sums[: (int)((step2time_index[epoch_num] - step2time_index[0]) * 10 ** (accuracy - 9.0))]
     plt.bar(x_sum_by_time_all, y_sum_by_time_all, color='skyblue')
     gap_x = max((int)(len(new_times) / 5), 1)
     plt.xticks(times[::gap_x])
@@ -173,14 +173,14 @@ if hasattr(args, 'epoch_num') and args.epoch_num is not None:
     # 添加标题和标签
     if accuracy == 8:
         if args.from_to == "from":
-            plt.title('Packet length Sum by Time ( from 106 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+            plt.title('Packet length Sum by Time ( from 112 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
         else:
-            plt.title('Packet length Sum by Time ( to 106 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+            plt.title('Packet length Sum by Time ( to 112 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
     else:
         if args.from_to == "from":
-            plt.title('Packet length Sum by Time ( from 106 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+            plt.title('Packet length Sum by Time ( from 112 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
         else:
-            plt.title('Packet length Sum by Time ( to 106 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+            plt.title('Packet length Sum by Time ( to 112 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
     plt.xlabel('Time(s)')
     plt.ylabel('Packet length Sum(Bytes)')
 
@@ -189,6 +189,6 @@ if hasattr(args, 'epoch_num') and args.epoch_num is not None:
 
     # 保存图像
     if accuracy == 8:
-        plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.from_to + 'all106.png')
+        plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.from_to + 'all112.png')
     else:
-        plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.from_to + 'all106.png')
+        plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.from_to + 'all112.png')
