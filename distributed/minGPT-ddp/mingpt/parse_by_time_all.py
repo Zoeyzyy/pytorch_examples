@@ -13,6 +13,7 @@ parser.add_argument('--accuracy', help='time gap')
 parser.add_argument('--from_to', help='from or to')
 parser.add_argument('--sender')
 parser.add_argument('--reciever')
+parser.add_argument('--epoch_num', help='epoch numbers')
 
 # 解析命令行参数
 args = parser.parse_args()
@@ -161,29 +162,33 @@ print("savetxt")
 
 # 绘制 sum_by_time_all 图像
 # 绘制柱状图
-plt.bar(new_times, new_sums, color='skyblue')
-gap_x = max((int)(len(new_times) / 5), 1)
-plt.xticks(times[::gap_x])
+if hasattr(args, 'epoch_num') and args.epoch_num is not None:
+    epoch_num = (int)(args.epoch_num)
+    x_sum_by_time_all = new_times[: (int)((step2time_index[epoch_num] - step2time_index[0]) * 10 ** (accuracy - 9.0))]
+    y_sum_by_time_all = new_sumes[: (int)((step2time_index[epoch_num] - step2time_index[0]) * 10 ** (accuracy - 9.0))]
+    plt.bar(x_sum_by_time_all, y_sum_by_time_all, color='skyblue')
+    gap_x = max((int)(len(new_times) / 5), 1)
+    plt.xticks(times[::gap_x])
 
-# 添加标题和标签
-if accuracy == 8:
-    if args.from_to == "from":
-        plt.title('Packet length Sum by Time ( from 106 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+    # 添加标题和标签
+    if accuracy == 8:
+        if args.from_to == "from":
+            plt.title('Packet length Sum by Time ( from 106 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
+        else:
+            plt.title('Packet length Sum by Time ( to 106 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
     else:
-        plt.title('Packet length Sum by Time ( to 106 and ' + str(10 ** -(accuracy - 8.0)) + 's )')
-else:
-    if args.from_to == "from":
-        plt.title('Packet length Sum by Time ( from 106 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+        if args.from_to == "from":
+            plt.title('Packet length Sum by Time ( from 106 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+        else:
+            plt.title('Packet length Sum by Time ( to 106 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
+    plt.xlabel('Time(s)')
+    plt.ylabel('Packet length Sum(Bytes)')
+
+    # 自动调整布局
+    plt.tight_layout()
+
+    # 保存图像
+    if accuracy == 8:
+        plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.from_to + 'all106.png')
     else:
-        plt.title('Packet length Sum by Time ( to 106 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
-plt.xlabel('Time(s)')
-plt.ylabel('Packet length Sum(Bytes)')
-
-# 自动调整布局
-plt.tight_layout()
-
-# 保存图像
-if accuracy == 8:
-    plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.from_to + 'all106.png')
-else:
-    plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.from_to + 'all106.png')
+        plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.from_to + 'all106.png')
