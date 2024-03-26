@@ -25,8 +25,8 @@ from_files = os.path.join('../../..', 'from*.txt')
 to_files = os.path.join('../../..', 'to*.txt')
 
 # 尝试从文件中加载communication_start_time
-if os.path.exists('./communication_start_distribute/communication_start_time_106.pkl'):
-    with open('./communication_start_distribute/communication_start_time_106.pkl', 'rb') as f:
+if os.path.exists('./communication_start_distribute/communication_start_time_108.pkl'):
+    with open('./communication_start_distribute/communication_start_time_108.pkl', 'rb') as f:
         communication_start_time = pickle.load(f)
 else:
     # 遍历from*.txt文件
@@ -39,8 +39,8 @@ else:
                 # 遍历epoch时间
                 for i in range(len(epoch_time_plot)):
                     if current_time >= epoch_time_plot[i]:
-                        if communication_start_time[i] is None or current_time < communication_start_time[i]:
-                            communication_start_time[i] = current_time
+                        if communication_start_time[i] is None or current_time - epoch_time_plot[i] < communication_start_time[i]:
+                            communication_start_time[i] = current_time - epoch_time_plot[i]
                     else:
                         break
 
@@ -54,13 +54,13 @@ else:
                 # 遍历epoch时间
                 for i in range(len(epoch_time_plot)):
                     if current_time >= epoch_time_plot[i]:
-                        if communication_start_time[i] is None or current_time < communication_start_time[i]:
-                            communication_start_time[i] = current_time
+                        if communication_start_time[i] is None or current_time - epoch_time_plot[i] < communication_start_time[i]:
+                            communication_start_time[i] = current_time - epoch_time_plot[i]
                     else:
                         break
-                    
+    
     # 将communication_start_time保存到文件中
-    with open('./communication_start_distribute/communication_start_time_106.pkl', 'wb') as f:
+    with open('./communication_start_distribute/communication_start_time_108.pkl', 'wb') as f:
         pickle.dump(communication_start_time, f)
 
 
@@ -70,7 +70,7 @@ plt.hist(communication_start_time, bins=30, color='skyblue', edgecolor='black')
 # 添加标签和标题
 plt.xlabel('Start Time of Communication(s)')
 plt.ylabel('Frequency')
-plt.title('Distribution of start time of communication (Machine 106)')
+plt.title('Distribution of start time of communication (Machine 108)')
 
 # 显示图形
-plt.savefig('./communication_start_distribute/106_distribution.png')
+plt.savefig('./communication_start_distribute/108_distribution.png')
