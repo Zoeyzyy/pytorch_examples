@@ -166,9 +166,8 @@ if hasattr(args, 'epoch_num') and args.epoch_num is not None:
     epoch_num = (int)(args.epoch_num)
     x_sum_by_time_all = new_times[: (int)((step2time_index[epoch_num] - step2time_index[0]) * 10 ** (accuracy - 9.0))]
     y_sum_by_time_all = new_sums[: (int)((step2time_index[epoch_num] - step2time_index[0]) * 10 ** (accuracy - 9.0))]
+    
     plt.bar(x_sum_by_time_all, y_sum_by_time_all, color='skyblue')
-    gap_x = max((int)(len(x_sum_by_time_all) / 5), 1)
-    plt.xticks(times[::gap_x])
 
     # 添加标题和标签
     if accuracy == 8:
