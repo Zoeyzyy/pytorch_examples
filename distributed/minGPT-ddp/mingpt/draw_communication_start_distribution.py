@@ -66,6 +66,7 @@ else:
 
 # 绘制直方图
 plt.hist(communication_start_time, bins=30, color='skyblue', edgecolor='black')
+plt.figure(figsize=(1000, 80))
 
 # 添加标签和标题
 plt.xlabel('Start Time of Communication(s)')
@@ -125,6 +126,7 @@ else:
 
 # 绘制直方图
 plt.hist(communication_start_time, bins=30, color='skyblue', edgecolor='black')
+plt.figure(figsize=(1000, 80))
 
 # 添加标签和标题
 plt.xlabel('Start Time of Communication(s)')
@@ -184,6 +186,7 @@ else:
 
 # 绘制直方图
 plt.hist(communication_start_time, bins=30, color='skyblue', edgecolor='black')
+plt.figure(figsize=(1000, 80))
 
 # 添加标签和标题
 plt.xlabel('Start Time of Communication(s)')
