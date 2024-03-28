@@ -189,7 +189,7 @@ if hasattr(args, 'epoch_num') and args.epoch_num is not None:
         else:
             plt.title('Packet length Sum by Time ( to 106 and ' + str(10 ** -(accuracy - 9.0)) + 's )')
     plt.xlabel('Time(s)')
-    plt.ylabel('Packet length Sum(Bytes)')
+    plt.ylabel('Packet length Sum(Byte)')
 
     # 保存图像
     if accuracy == 8:
