@@ -24,6 +24,7 @@ with open('./step2time_index/step2time_index_106_12', 'r') as file:
 
 # 绘制直方图
 plt.hist(epoch_time_gap_106, bins=30, color='skyblue', edgecolor='black')
+plt.figure(figsize=(1000, 800))
 
 # 添加标签和标题
 plt.xlabel('Epoch time(s)')
@@ -44,6 +45,7 @@ with open('./step2time_index/step2time_index_108_12', 'r') as file:
 
 # 绘制直方图
 plt.hist(epoch_time_gap_108, bins=30, color='skyblue', edgecolor='black')
+plt.figure(figsize=(1000, 800))
 
 # 添加标签和标题
 plt.xlabel('Epoch time(s)')
@@ -64,6 +66,7 @@ with open('./step2time_index/step2time_index_112_12', 'r') as file:
 
 # 绘制直方图
 plt.hist(epoch_time_gap_112, bins=30, color='skyblue', edgecolor='black')
+plt.figure(figsize=(1000, 800))
 
 # 添加标签和标题
 plt.xlabel('Epoch time(s)')
