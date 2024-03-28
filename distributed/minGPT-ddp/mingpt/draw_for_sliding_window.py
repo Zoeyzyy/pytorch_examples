@@ -56,9 +56,10 @@ def draw_sliding_window(window_i):
 
     # 设置子图布局
     fig, axs = plt.subplots(1, 1, figsize=(8, 10))
+    plt.figure(figsize=(100, 8))
     
     # 绘制第一个子图
-    axs.bar(x_values, data, color='blue')
+    axs.bar(x_values, data, color='skyblue', width=float(100.0 / len(x_values)))
     axs.set_title(str(from_to) + ' 106')
     axs.set_xlabel('Time (s)')
     axs.set_ylabel('Packet Length Sum (Bytes)')
