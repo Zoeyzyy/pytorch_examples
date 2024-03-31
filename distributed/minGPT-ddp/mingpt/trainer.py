@@ -145,7 +145,7 @@ class Trainer:
         import datetime
         for epoch in range(self.epochs_run, self.config.max_epochs):
             epoch += 1
-            step_line.append(str(datetime.datetime.now())+" [GPU{ " + str(self.global_rank) + " }] " + "Epoch {" + str(epoch) "}")
+            step_line.append(str(datetime.datetime.now()) + "Epoch {" + str(epoch) "}")
             self._run_epoch(epoch, self.train_loader, train=True)
             if self.local_rank == 0 and epoch % self.save_every == 0:
                 self._save_snapshot(epoch)
