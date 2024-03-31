@@ -1,0 +1,16 @@
+python3 parse_by_time.py --sender=106 --reciever=108 --accuracy=8 --pcap_file from106 & 
+python3 parse_by_time.py --sender=108 --reciever=106 --accuracy=8 --pcap_file to106 & 
+python3 parse_by_time.py --sender=112 --reciever=108 --accuracy=8 --pcap_file from112 & 
+python3 parse_by_time.py --sender=108 --reciever=112 --accuracy=8 --pcap_file to112 & 
+python3 parse_by_time.py --sender=106 --reciever=108 --accuracy=10 --pcap_file from106 & 
+python3 parse_by_time.py --sender=108 --reciever=106 --accuracy=10 --pcap_file to106 & 
+python3 parse_by_time.py --sender=112 --reciever=108 --accuracy=10 --pcap_file from112 & 
+python3 parse_by_time.py --sender=108 --reciever=112 --accuracy=10 --pcap_file to112 & 
+python3 parse_by_time.py --sender=106 --reciever=108 --accuracy=11 --pcap_file from106 & 
+python3 parse_by_time.py --sender=108 --reciever=106 --accuracy=11 --pcap_file to106 & 
+python3 parse_by_time.py --sender=112 --reciever=108 --accuracy=11 --pcap_file from112 & 
+python3 parse_by_time.py --sender=108 --reciever=112 --accuracy=11 --pcap_file to112 & 
+python3 parse_by_time.py --sender=106 --reciever=108 --accuracy=12 --pcap_file from106 & 
+python3 parse_by_time.py --sender=108 --reciever=106 --accuracy=12 --pcap_file to106 & 
+python3 parse_by_time.py --sender=112 --reciever=108 --accuracy=12 --pcap_file from112 & 
+python3 parse_by_time.py --sender=108 --reciever=112 --accuracy=12 --pcap_file to112 & 

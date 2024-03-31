@@ -1,0 +1,1489 @@
+savetxt
+196546
+epoch_num:  5
+len_sum_by_time_all:  9969 9969
+savetxt
+1181166
+epoch_num:  5
+len_sum_by_time_all:  9969 9969
+draw sliding window  1
+20000 41000 11811650
+draw sliding window  62
+1279000 1299000 11811650
+draw sliding window  99
+draw sliding window  38
+784000 804000 11811650
+draw sliding window  70
+1444000 1464000 11811650
+draw sliding window  12
+247000 268000 11811650
+draw sliding window  73
+1506000 1526000 11811650
+draw sliding window  9
+185000 206000 11811650
+draw sliding window  75
+1547000 1568000 11811650
+draw sliding window  25
+515000 536000 11811650
+draw sliding window  60
+1238000 1258000 11811650
+draw sliding window  37
+763000 784000 11811650
+draw sliding window  63
+1299000 1320000 11811650
+draw sliding window  28
+577000 598000 11811650
+draw sliding window  58
+1196000 1217000 11811650
+draw sliding window  20
+412000 433000 11811650
+draw sliding window  76
+1568000 1588000 11811650
+draw sliding window  34
+701000 722000 11811650
+draw sliding window  52
+1072000 1093000 11811650
+draw sliding window  13
+268000 288000 11811650
+draw sliding window  69
+1423000 1444000 11811650
+draw sliding window  31
+639000 660000 11811650
+draw sliding window  57
+1176000 1196000 11811650
+draw sliding window  7
+144000 165000 11811650
+draw sliding window  66
+1361000 1382000 11811650
+draw sliding window  10
+206000 226000 11811650
+draw sliding window  53
+1093000 1114000 11811650
+draw sliding window  0
+0 20000 11811650
+draw sliding window  79
+1630000 1650000 11811650
+draw sliding window  6
+123000 144000 11811650
+draw sliding window  65
+1341000 1361000 11811650
+draw sliding window  22
+453000 474000 11811650
+draw sliding window  74
+1526000 1547000 11811650
+draw sliding window  8
+165000 185000 11811650
+draw sliding window  61
+1258000 1279000 11811650
+draw sliding window  14
+288000 309000 11811650
+draw sliding window  72
+1485000 1506000 11811650
+draw sliding window  23
+474000 495000 11811650
+draw sliding window  71
+1464000 1485000 11811650
+draw sliding window  36
+742000 763000 11811650
+draw sliding window  78
+1609000 1630000 11811650
+draw sliding window  3
+61000 82000 11811650
+draw sliding window  77
+1588000 1609000 11811650
+draw sliding window  15
+309000 330000 11811650
+draw sliding window  45
+928000 949000 11811650
+draw sliding window  80
+1650000 1671000 11811650
+draw sliding window  5
+103000 123000 11811650
+draw sliding window  40
+825000 845000 11811650
+draw sliding window  81
+1671000 1691000 11811650
+draw sliding window  35
+722000 742000 11811650
+draw sliding window  43
+887000 907000 11811650
+draw sliding window  84
+1733000 1753000 11811650
+draw sliding window  30
+619000 639000 11811650
+draw sliding window  54
+1114000 1134000 11811650
+draw sliding window  87
+1795000 1815000 11811650
+draw sliding window  19
+392000 412000 11811650
+draw sliding window  47
+969000 990000 11811650
+draw sliding window  90
+1857000 1877000 11811650
+draw sliding window  29
+598000 619000 11811650
+draw sliding window  48
+990000 1011000 11811650
+draw sliding window  92
+1898000 1918000 11811650
+draw sliding window  26
+536000 557000 11811650
+draw sliding window  50
+1031000 1052000 11811650
+draw sliding window  88
+1815000 1836000 11811650
+draw sliding window  27
+557000 577000 11811650
+draw sliding window  44
+907000 928000 11811650
+draw sliding window  85
+1753000 1774000 11811650
+draw sliding window  17
+350000 371000 11811650
+draw sliding window  64
+1320000 1341000 11811650
+draw sliding window  91
+1877000 1898000 11811650
+draw sliding window  33
+680000 701000 11811650
+draw sliding window  42
+866000 887000 11811650
+draw sliding window  86
+1774000 1795000 11811650
+draw sliding window  24
+495000 515000 11811650
+draw sliding window  41
+845000 866000 11811650
+draw sliding window  82
+1691000 1712000 11811650
+draw sliding window  11
+226000 247000 11811650
+draw sliding window  51
+1052000 1072000 11811650
+draw sliding window  89
+1836000 1857000 11811650
+draw sliding window  4
+82000 103000 11811650
+draw sliding window  46
+949000 969000 11811650
+draw sliding window  83
+1712000 1733000 11811650
+draw sliding window  21
+433000 453000 11811650
+draw sliding window  68
+1403000 1423000 11811650
+draw sliding window  94
+1939000 1960000 11811650
+draw sliding window  39
+804000 825000 11811650
+draw sliding window  55
+1134000 1155000 11811650
+draw sliding window  95
+1960000 1980000 11811650
+draw sliding window  18
+371000 392000 11811650
+draw sliding window  59
+1217000 1238000 11811650
+draw sliding window  96
+1980000 2001000 11811650
+draw sliding window  32
+660000 680000 11811650
+draw sliding window  49
+1011000 1031000 11811650
+draw sliding window  93
+1918000 1939000 11811650
+draw sliding window  2
+41000 61000 11811650
+draw sliding window  56
+1155000 1176000 11811650
+draw sliding window  98
+2022000 2042000 11811650
+draw sliding window  16
+330000 350000 11811650
+draw sliding window  67
+1382000 1403000 11811650
+draw sliding window  97
+2001000 2022000 11811650
+Sub-process(es) done.
+draw sliding window  30
+619000 639000 11811650
+draw sliding window  70
+1444000 1464000 11811650
+draw sliding window  99
+draw sliding window  2
+41000 61000 11811650
+draw sliding window  51
+1052000 1072000 11811650
+draw sliding window  39
+804000 825000 11811650
+draw sliding window  50
+1031000 1052000 11811650
+draw sliding window  13
+268000 288000 11811650
+draw sliding window  44
+907000 928000 11811650
+draw sliding window  14
+288000 309000 11811650
+draw sliding window  78
+1609000 1630000 11811650
+draw sliding window  5
+103000 123000 11811650
+draw sliding window  52
+1072000 1093000 11811650
+draw sliding window  36
+742000 763000 11811650
+draw sliding window  73
+1506000 1526000 11811650
+draw sliding window  10
+206000 226000 11811650
+draw sliding window  46
+949000 969000 11811650
+draw sliding window  28
+577000 598000 11811650
+draw sliding window  66
+1361000 1382000 11811650
+draw sliding window  4
+82000 103000 11811650
+draw sliding window  76
+1568000 1588000 11811650
+draw sliding window  22
+453000 474000 11811650
+draw sliding window  48
+990000 1011000 11811650
+draw sliding window  27
+557000 577000 11811650
+draw sliding window  57
+1176000 1196000 11811650
+draw sliding window  32
+660000 680000 11811650
+draw sliding window  72
+1485000 1506000 11811650
+draw sliding window  9
+185000 206000 11811650
+draw sliding window  69
+1423000 1444000 11811650
+draw sliding window  15
+309000 330000 11811650
+draw sliding window  77
+1588000 1609000 11811650
+draw sliding window  20
+412000 433000 11811650
+draw sliding window  65
+1341000 1361000 11811650
+draw sliding window  17
+350000 371000 11811650
+draw sliding window  60
+1238000 1258000 11811650
+draw sliding window  7
+144000 165000 11811650
+draw sliding window  74
+1526000 1547000 11811650
+draw sliding window  29
+598000 619000 11811650
+draw sliding window  59
+1217000 1238000 11811650
+draw sliding window  31
+639000 660000 11811650
+draw sliding window  53
+1093000 1114000 11811650
+draw sliding window  6
+123000 144000 11811650
+draw sliding window  61
+1258000 1279000 11811650
+draw sliding window  19
+392000 412000 11811650
+draw sliding window  67
+1382000 1403000 11811650
+draw sliding window  82
+1691000 1712000 11811650
+draw sliding window  18
+371000 392000 11811650
+draw sliding window  62
+1279000 1299000 11811650
+draw sliding window  81
+1671000 1691000 11811650
+draw sliding window  3
+61000 82000 11811650
+draw sliding window  41
+845000 866000 11811650
+draw sliding window  83
+1712000 1733000 11811650
+draw sliding window  23
+474000 495000 11811650
+draw sliding window  45
+928000 949000 11811650
+draw sliding window  84
+1733000 1753000 11811650
+draw sliding window  34
+701000 722000 11811650
+draw sliding window  40
+825000 845000 11811650
+draw sliding window  80
+1650000 1671000 11811650
+draw sliding window  24
+495000 515000 11811650
+draw sliding window  49
+1011000 1031000 11811650
+draw sliding window  86
+1774000 1795000 11811650
+draw sliding window  11
+226000 247000 11811650
+draw sliding window  58
+1196000 1217000 11811650
+draw sliding window  85
+1753000 1774000 11811650
+draw sliding window  26
+536000 557000 11811650
+draw sliding window  43
+887000 907000 11811650
+draw sliding window  87
+1795000 1815000 11811650
+draw sliding window  0
+0 20000 11811650
+draw sliding window  42
+866000 887000 11811650
+draw sliding window  88
+1815000 1836000 11811650
+draw sliding window  37
+763000 784000 11811650
+draw sliding window  79
+1630000 1650000 11811650
+draw sliding window  89
+1836000 1857000 11811650
+draw sliding window  21
+433000 453000 11811650
+draw sliding window  55
+1134000 1155000 11811650
+draw sliding window  90
+1857000 1877000 11811650
+draw sliding window  35
+722000 742000 11811650
+draw sliding window  54
+1114000 1134000 11811650
+draw sliding window  94
+1939000 1960000 11811650
+draw sliding window  33
+680000 701000 11811650
+draw sliding window  64
+1320000 1341000 11811650
+draw sliding window  92
+1898000 1918000 11811650
+draw sliding window  12
+247000 268000 11811650
+draw sliding window  75
+1547000 1568000 11811650
+draw sliding window  95
+1960000 1980000 11811650
+draw sliding window  16
+330000 350000 11811650
+draw sliding window  56
+1155000 1176000 11811650
+draw sliding window  98
+2022000 2042000 11811650
+draw sliding window  38
+784000 804000 11811650
+draw sliding window  71
+1464000 1485000 11811650
+draw sliding window  93
+1918000 1939000 11811650
+draw sliding window  25
+515000 536000 11811650
+draw sliding window  63
+1299000 1320000 11811650
+draw sliding window  96
+1980000 2001000 11811650
+draw sliding window  8
+165000 185000 11811650
+draw sliding window  68
+1403000 1423000 11811650
+draw sliding window  97
+2001000 2022000 11811650
+draw sliding window  1
+20000 41000 11811650
+draw sliding window  47
+969000 990000 11811650
+draw sliding window  91
+1877000 1898000 11811650
+Sub-process(es) done.
+savetxt
+1965444
+epoch_num:  5
+len_sum_by_time_all:  99682 99682
+savetxt
+11811650
+epoch_num:  5
+len_sum_by_time_all:  99682 99682
+draw sliding window  23
+474000 495000 11811650
+draw sliding window  48
+990000 1011000 11811650
+draw sliding window  99
+draw sliding window  37
+763000 784000 11811650
+draw sliding window  50
+1031000 1052000 11811650
+draw sliding window  31
+639000 660000 11811650
+draw sliding window  63
+1299000 1320000 11811650
+draw sliding window  8
+165000 185000 11811650
+draw sliding window  74
+1526000 1547000 11811650
+draw sliding window  35
+722000 742000 11811650
+draw sliding window  58
+1196000 1217000 11811650
+draw sliding window  6
+123000 144000 11811650
+draw sliding window  73
+1506000 1526000 11811650
+draw sliding window  34
+701000 722000 11811650
+draw sliding window  70
+1444000 1464000 11811650
+draw sliding window  22
+453000 474000 11811650
+draw sliding window  75
+1547000 1568000 11811650
+draw sliding window  32
+660000 680000 11811650
+draw sliding window  56
+1155000 1176000 11811650
+draw sliding window  10
+206000 226000 11811650
+draw sliding window  77
+1588000 1609000 11811650
+draw sliding window  21
+433000 453000 11811650
+draw sliding window  53
+1093000 1114000 11811650
+draw sliding window  5
+103000 123000 11811650
+draw sliding window  71
+1464000 1485000 11811650
+draw sliding window  18
+371000 392000 11811650
+draw sliding window  65
+1341000 1361000 11811650
+draw sliding window  13
+268000 288000 11811650
+draw sliding window  69
+1423000 1444000 11811650
+draw sliding window  0
+0 20000 11811650
+draw sliding window  76
+1568000 1588000 11811650
+draw sliding window  7
+144000 165000 11811650
+draw sliding window  67
+1382000 1403000 11811650
+draw sliding window  26
+536000 557000 11811650
+draw sliding window  66
+1361000 1382000 11811650
+draw sliding window  11
+226000 247000 11811650
+draw sliding window  64
+1320000 1341000 11811650
+draw sliding window  1
+20000 41000 11811650
+draw sliding window  72
+1485000 1506000 11811650
+draw sliding window  15
+309000 330000 11811650
+draw sliding window  79
+1630000 1650000 11811650
+draw sliding window  17
+350000 371000 11811650
+draw sliding window  78
+1609000 1630000 11811650
+draw sliding window  25
+515000 536000 11811650
+draw sliding window  51
+1052000 1072000 11811650
+draw sliding window  81
+1671000 1691000 11811650
+draw sliding window  2
+41000 61000 11811650
+draw sliding window  40
+825000 845000 11811650
+draw sliding window  80
+1650000 1671000 11811650
+draw sliding window  38
+784000 804000 11811650
+draw sliding window  55
+1134000 1155000 11811650
+draw sliding window  86
+1774000 1795000 11811650
+draw sliding window  3
+61000 82000 11811650
+draw sliding window  46
+949000 969000 11811650
+draw sliding window  83
+1712000 1733000 11811650
+draw sliding window  24
+495000 515000 11811650
+draw sliding window  41
+845000 866000 11811650
+draw sliding window  84
+1733000 1753000 11811650
+draw sliding window  14
+288000 309000 11811650
+draw sliding window  43
+887000 907000 11811650
+draw sliding window  87
+1795000 1815000 11811650
+draw sliding window  4
+82000 103000 11811650
+draw sliding window  59
+1217000 1238000 11811650
+draw sliding window  82
+1691000 1712000 11811650
+draw sliding window  20
+412000 433000 11811650
+draw sliding window  68
+1403000 1423000 11811650
+draw sliding window  92
+1898000 1918000 11811650
+draw sliding window  36
+742000 763000 11811650
+draw sliding window  54
+1114000 1134000 11811650
+draw sliding window  89
+1836000 1857000 11811650
+draw sliding window  19
+392000 412000 11811650
+draw sliding window  62
+1279000 1299000 11811650
+draw sliding window  97
+2001000 2022000 11811650
+draw sliding window  33
+680000 701000 11811650
+draw sliding window  42
+866000 887000 11811650
+draw sliding window  85
+1753000 1774000 11811650
+draw sliding window  28
+577000 598000 11811650
+draw sliding window  60
+1238000 1258000 11811650
+draw sliding window  98
+2022000 2042000 11811650
+draw sliding window  9
+185000 206000 11811650
+draw sliding window  49
+1011000 1031000 11811650
+draw sliding window  90
+1857000 1877000 11811650
+draw sliding window  39
+804000 825000 11811650
+draw sliding window  45
+928000 949000 11811650
+draw sliding window  95
+1960000 1980000 11811650
+draw sliding window  12
+247000 268000 11811650
+draw sliding window  61
+1258000 1279000 11811650
+draw sliding window  96
+1980000 2001000 11811650
+draw sliding window  16
+330000 350000 11811650
+draw sliding window  57
+1176000 1196000 11811650
+draw sliding window  88
+1815000 1836000 11811650
+draw sliding window  30
+619000 639000 11811650
+draw sliding window  47
+969000 990000 11811650
+draw sliding window  93
+1918000 1939000 11811650
+draw sliding window  27
+557000 577000 11811650
+draw sliding window  44
+907000 928000 11811650
+draw sliding window  94
+1939000 1960000 11811650
+draw sliding window  29
+598000 619000 11811650
+draw sliding window  52
+1072000 1093000 11811650
+draw sliding window  91
+1877000 1898000 11811650
+Sub-process(es) done.
+draw sliding window  13
+268000 288000 11811650
+draw sliding window  54
+1114000 1134000 11811650
+draw sliding window  99
+draw sliding window  12
+247000 268000 11811650
+draw sliding window  53
+1093000 1114000 11811650
+draw sliding window  14
+288000 309000 11811650
+draw sliding window  57
+1176000 1196000 11811650
+draw sliding window  25
+515000 536000 11811650
+draw sliding window  73
+1506000 1526000 11811650
+draw sliding window  0
+0 20000 11811650
+draw sliding window  48
+990000 1011000 11811650
+draw sliding window  23
+474000 495000 11811650
+draw sliding window  56
+1155000 1176000 11811650
+draw sliding window  11
+226000 247000 11811650
+draw sliding window  52
+1072000 1093000 11811650
+draw sliding window  31
+639000 660000 11811650
+draw sliding window  71
+1464000 1485000 11811650
+draw sliding window  29
+598000 619000 11811650
+draw sliding window  79
+1630000 1650000 11811650
+draw sliding window  8
+165000 185000 11811650
+draw sliding window  58
+1196000 1217000 11811650
+draw sliding window  24
+495000 515000 11811650
+draw sliding window  69
+1423000 1444000 11811650
+draw sliding window  4
+82000 103000 11811650
+draw sliding window  66
+1361000 1382000 11811650
+draw sliding window  17
+350000 371000 11811650
+draw sliding window  76
+1568000 1588000 11811650
+draw sliding window  3
+61000 82000 11811650
+draw sliding window  63
+1299000 1320000 11811650
+draw sliding window  20
+412000 433000 11811650
+draw sliding window  78
+1609000 1630000 11811650
+draw sliding window  39
+804000 825000 11811650
+draw sliding window  59
+1217000 1238000 11811650
+draw sliding window  5
+103000 123000 11811650
+draw sliding window  67
+1382000 1403000 11811650
+draw sliding window  19
+392000 412000 11811650
+draw sliding window  72
+1485000 1506000 11811650
+draw sliding window  33
+680000 701000 11811650
+draw sliding window  64
+1320000 1341000 11811650
+draw sliding window  9
+185000 206000 11811650
+draw sliding window  74
+1526000 1547000 11811650
+draw sliding window  34
+701000 722000 11811650
+draw sliding window  77
+1588000 1609000 11811650
+draw sliding window  37
+763000 784000 11811650
+draw sliding window  42
+866000 887000 11811650
+draw sliding window  80
+1650000 1671000 11811650
+draw sliding window  22
+453000 474000 11811650
+draw sliding window  50
+1031000 1052000 11811650
+draw sliding window  84
+1733000 1753000 11811650
+draw sliding window  18
+371000 392000 11811650
+draw sliding window  40
+825000 845000 11811650
+draw sliding window  81
+1671000 1691000 11811650
+draw sliding window  6
+123000 144000 11811650
+draw sliding window  70
+1444000 1464000 11811650
+draw sliding window  85
+1753000 1774000 11811650
+draw sliding window  15
+309000 330000 11811650
+draw sliding window  51
+1052000 1072000 11811650
+draw sliding window  87
+1795000 1815000 11811650
+draw sliding window  35
+722000 742000 11811650
+draw sliding window  41
+845000 866000 11811650
+draw sliding window  83
+1712000 1733000 11811650
+draw sliding window  10
+206000 226000 11811650
+draw sliding window  44
+907000 928000 11811650
+draw sliding window  82
+1691000 1712000 11811650
+draw sliding window  1
+20000 41000 11811650
+draw sliding window  61
+1258000 1279000 11811650
+draw sliding window  86
+1774000 1795000 11811650
+draw sliding window  21
+433000 453000 11811650
+draw sliding window  62
+1279000 1299000 11811650
+draw sliding window  90
+1857000 1877000 11811650
+draw sliding window  2
+41000 61000 11811650
+draw sliding window  60
+1238000 1258000 11811650
+draw sliding window  92
+1898000 1918000 11811650
+draw sliding window  28
+577000 598000 11811650
+draw sliding window  43
+887000 907000 11811650
+draw sliding window  88
+1815000 1836000 11811650
+draw sliding window  16
+330000 350000 11811650
+draw sliding window  45
+928000 949000 11811650
+draw sliding window  91
+1877000 1898000 11811650
+draw sliding window  27
+557000 577000 11811650
+draw sliding window  46
+949000 969000 11811650
+draw sliding window  89
+1836000 1857000 11811650
+draw sliding window  36
+742000 763000 11811650
+draw sliding window  47
+969000 990000 11811650
+draw sliding window  95
+1960000 1980000 11811650
+draw sliding window  32
+660000 680000 11811650
+draw sliding window  75
+1547000 1568000 11811650
+draw sliding window  97
+2001000 2022000 11811650
+draw sliding window  7
+144000 165000 11811650
+draw sliding window  65
+1341000 1361000 11811650
+draw sliding window  98
+2022000 2042000 11811650
+draw sliding window  30
+619000 639000 11811650
+draw sliding window  68
+1403000 1423000 11811650
+draw sliding window  94
+1939000 1960000 11811650
+draw sliding window  26
+536000 557000 11811650
+draw sliding window  49
+1011000 1031000 11811650
+draw sliding window  96
+1980000 2001000 11811650
+draw sliding window  38
+784000 804000 11811650
+draw sliding window  55
+1134000 1155000 11811650
+draw sliding window  93
+1918000 1939000 11811650
+Sub-process(es) done.
+Traceback (most recent call last):
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/main.py", line 6, in <module>
+    from trainer import Trainer, TrainerConfig
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/trainer.py", line 16, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+[2024-03-31 13:05:11,908] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 210) of binary: /home/rn-fellow/miniconda3/bin/python
+Traceback (most recent call last):
+  File "/home/rn-fellow/miniconda3/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-03-31_13:05:11
+  host      : FNIL-2022DEC-GPU-4
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 210)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/main.py", line 8, in <module>
+    from omegaconf import DictConfig
+ModuleNotFoundError: No module named 'omegaconf'
+[2024-03-31 13:06:34,799] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 226) of binary: /home/rn-fellow/miniconda3/bin/python
+Traceback (most recent call last):
+  File "/home/rn-fellow/miniconda3/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-03-31_13:06:34
+  host      : FNIL-2022DEC-GPU-4
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 226)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Data has 55769 characters, 59 unique.
+50076
+number of parameters: 27.32M
+Snapshot not found. Training model from scratch
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/main.py", line 40, in main
+    trainer.train()
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/trainer.py", line 148, in train
+    step_line.append(datetime.datetime.now(), f"[GPU{self.global_rank}] Epoch {epoch}")
+TypeError: list.append() takes exactly one argument (2 given)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2024-03-31 13:07:53,550] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 258) of binary: /home/rn-fellow/miniconda3/bin/python
+Traceback (most recent call last):
+  File "/home/rn-fellow/miniconda3/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-03-31_13:07:53
+  host      : FNIL-2022DEC-GPU-4
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 258)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/main.py", line 6, in <module>
+    from trainer import Trainer, TrainerConfig
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/trainer.py", line 148
+    step_line.append(str(datetime.datetime.now())+" [GPU{ " + str(self.global_rank) + " }] " + "Epoch {" + str(epoch) "}")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-03-31 13:10:50,429] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 322) of binary: /home/rn-fellow/miniconda3/bin/python
+Traceback (most recent call last):
+  File "/home/rn-fellow/miniconda3/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-03-31_13:10:50
+  host      : FNIL-2022DEC-GPU-4
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 322)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/main.py", line 6, in <module>
+    from trainer import Trainer, TrainerConfig
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/trainer.py", line 148
+    step_line.append(str(datetime.datetime.now()) + "Epoch {" + str(epoch) "}")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-03-31 13:12:42,358] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 336) of binary: /home/rn-fellow/miniconda3/bin/python
+Traceback (most recent call last):
+  File "/home/rn-fellow/miniconda3/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-03-31_13:12:42
+  host      : FNIL-2022DEC-GPU-4
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 336)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Data has 55769 characters, 59 unique.
+50076
+number of parameters: 27.32M
+Snapshot not found. Training model from scratch
+[GPU1] Epoch 1 | Iter 0 | Train Loss 4.22610
+[GPU1] Epoch 2 | Iter 0 | Train Loss 2.40699
+[GPU1] Epoch 3 | Iter 0 | Train Loss 2.32178
+[GPU1] Epoch 4 | Iter 0 | Train Loss 2.24633
+[GPU1] Epoch 5 | Iter 0 | Train Loss 2.18859
+[GPU1] Epoch 6 | Iter 0 | Train Loss 2.11575
+[GPU1] Epoch 7 | Iter 0 | Train Loss 2.08426
+[GPU1] Epoch 8 | Iter 0 | Train Loss 2.01772
+[2024-03-31 13:16:41,727] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: -9) local_rank: 0 (pid: 344) of binary: /home/rn-fellow/miniconda3/bin/python
+Traceback (most recent call last):
+  File "/home/rn-fellow/miniconda3/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rn-fellow/miniconda3/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+====================================================
+main.py FAILED
+----------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+----------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-03-31_13:16:41
+  host      : FNIL-2022DEC-GPU-4
+  rank      : 1 (local_rank: 0)
+  exitcode  : -9 (pid: 344)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 344
+====================================================
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+Traceback (most recent call last):
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/main.py", line 6, in <module>
+    from trainer import Trainer, TrainerConfig
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/trainer.py", line 16, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+[2024-03-31 13:20:55,839] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 1007) of binary: /usr/bin/python3
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-03-31_13:20:55
+  host      : FNIL-2022DEC-GPU-4
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 1007)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 259, in launch_agent
+    result = agent.run()
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/metrics/api.py", line 123, in wrapper
+    result = f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 727, in run
+    result = self._invoke_run(role)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 862, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/metrics/api.py", line 123, in wrapper
+    result = f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 699, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/metrics/api.py", line 123, in wrapper
+    result = f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 545, in _rendezvous
+    workers = self._assign_worker_ranks(store, group_rank, group_world_size, spec)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/metrics/api.py", line 123, in wrapper
+    result = f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 632, in _assign_worker_ranks
+    role_infos = self._share_and_gather(store, group_rank, group_world_size, spec)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 669, in _share_and_gather
+    role_infos_bytes = store_util.synchronize(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/utils/store.py", line 64, in synchronize
+    agent_data = get_all(store, rank, key_prefix, world_size)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/utils/store.py", line 34, in get_all
+    data = store.get(f"{prefix}{idx}")
+torch.distributed.DistNetworkError: Connection reset by peer
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+Traceback (most recent call last):
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/main.py", line 6, in <module>
+    from trainer import Trainer, TrainerConfig
+  File "/home/rn-fellow/pytorch_examples/distributed/minGPT-ddp/mingpt/trainer.py", line 16, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+[2024-03-31 13:25:32,914] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 1235) of binary: /usr/bin/python3
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-03-31_13:25:32
+  host      : FNIL-2022DEC-GPU-4
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 1235)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: listening on enp129s0f0np0, link-type EN10MB (Ethernet), snapshot length 128 bytes
+Data has 55769 characters, 59 unique.
+50076
+number of parameters: 27.32M
+Snapshot not found. Training model from scratch
+[GPU1] Epoch 1 | Iter 0 | Train Loss 4.22202
+[GPU1] Epoch 2 | Iter 0 | Train Loss 2.40336
+[GPU1] Epoch 3 | Iter 0 | Train Loss 2.33122
+[GPU1] Epoch 4 | Iter 0 | Train Loss 2.28036
+[GPU1] Epoch 5 | Iter 0 | Train Loss 2.19658
+[GPU1] Epoch 6 | Iter 0 | Train Loss 2.14167
+[GPU1] Epoch 7 | Iter 0 | Train Loss 2.09352
+[GPU1] Epoch 8 | Iter 0 | Train Loss 2.02522
+[GPU1] Epoch 9 | Iter 0 | Train Loss 1.98550
+[GPU1] Epoch 10 | Iter 0 | Train Loss 1.94785
+[GPU1] Epoch 11 | Iter 0 | Train Loss 1.89689
+[GPU1] Epoch 12 | Iter 0 | Train Loss 1.83077
+[GPU1] Epoch 13 | Iter 0 | Train Loss 1.71689
+[GPU1] Epoch 14 | Iter 0 | Train Loss 1.56955
+[GPU1] Epoch 15 | Iter 0 | Train Loss 1.45905
+[GPU1] Epoch 16 | Iter 0 | Train Loss 1.32925
+[GPU1] Epoch 17 | Iter 0 | Train Loss 1.25971
+[GPU1] Epoch 18 | Iter 0 | Train Loss 1.18254
+[GPU1] Epoch 19 | Iter 0 | Train Loss 1.09687
+[GPU1] Epoch 20 | Iter 0 | Train Loss 1.01483
+[GPU1] Epoch 21 | Iter 0 | Train Loss 0.97503
+[GPU1] Epoch 22 | Iter 0 | Train Loss 0.90603
+[GPU1] Epoch 23 | Iter 0 | Train Loss 0.84765
+[GPU1] Epoch 24 | Iter 0 | Train Loss 0.80689
+[GPU1] Epoch 25 | Iter 0 | Train Loss 0.75007
+[GPU1] Epoch 26 | Iter 0 | Train Loss 0.69893
+[GPU1] Epoch 27 | Iter 0 | Train Loss 0.65626
+[GPU1] Epoch 28 | Iter 0 | Train Loss 0.61119
+[GPU1] Epoch 29 | Iter 0 | Train Loss 0.55412
+[GPU1] Epoch 30 | Iter 0 | Train Loss 0.51339
+[GPU1] Epoch 31 | Iter 0 | Train Loss 0.47047
+[GPU1] Epoch 32 | Iter 0 | Train Loss 0.44300
+[GPU1] Epoch 33 | Iter 0 | Train Loss 0.40010
+[GPU1] Epoch 34 | Iter 0 | Train Loss 0.35700
+[GPU1] Epoch 35 | Iter 0 | Train Loss 0.29740
+[GPU1] Epoch 36 | Iter 0 | Train Loss 0.26123
+[GPU1] Epoch 37 | Iter 0 | Train Loss 0.23055
+[GPU1] Epoch 38 | Iter 0 | Train Loss 0.19590
+[GPU1] Epoch 39 | Iter 0 | Train Loss 0.17016
+[GPU1] Epoch 40 | Iter 0 | Train Loss 0.15124
+[GPU1] Epoch 41 | Iter 0 | Train Loss 0.13835
+[GPU1] Epoch 42 | Iter 0 | Train Loss 0.12412
+[GPU1] Epoch 43 | Iter 0 | Train Loss 0.11176
+[GPU1] Epoch 44 | Iter 0 | Train Loss 0.09904
+[GPU1] Epoch 45 | Iter 0 | Train Loss 0.09007
+[GPU1] Epoch 46 | Iter 0 | Train Loss 0.08160
+[GPU1] Epoch 47 | Iter 0 | Train Loss 0.07212
+[GPU1] Epoch 48 | Iter 0 | Train Loss 0.07026
+[GPU1] Epoch 49 | Iter 0 | Train Loss 0.06538
+[GPU1] Epoch 50 | Iter 0 | Train Loss 0.05959
+[GPU1] Epoch 51 | Iter 0 | Train Loss 0.05514
+[GPU1] Epoch 52 | Iter 0 | Train Loss 0.05225
+[GPU1] Epoch 53 | Iter 0 | Train Loss 0.04609
+[GPU1] Epoch 54 | Iter 0 | Train Loss 0.04782
+[GPU1] Epoch 55 | Iter 0 | Train Loss 0.04647
+[GPU1] Epoch 56 | Iter 0 | Train Loss 0.03840
+[GPU1] Epoch 57 | Iter 0 | Train Loss 0.03894
+[GPU1] Epoch 58 | Iter 0 | Train Loss 0.03608
+[GPU1] Epoch 59 | Iter 0 | Train Loss 0.03179
+[GPU1] Epoch 60 | Iter 0 | Train Loss 0.03049
+[GPU1] Epoch 61 | Iter 0 | Train Loss 0.02707
+[GPU1] Epoch 62 | Iter 0 | Train Loss 0.02870
+[GPU1] Epoch 63 | Iter 0 | Train Loss 0.02497
+[GPU1] Epoch 64 | Iter 0 | Train Loss 0.02331
+[GPU1] Epoch 65 | Iter 0 | Train Loss 0.02121
+[GPU1] Epoch 66 | Iter 0 | Train Loss 0.02062
+[GPU1] Epoch 67 | Iter 0 | Train Loss 0.01967
+[GPU1] Epoch 68 | Iter 0 | Train Loss 0.01983
+[GPU1] Epoch 69 | Iter 0 | Train Loss 0.01726
+[GPU1] Epoch 70 | Iter 0 | Train Loss 0.01722
+[GPU1] Epoch 71 | Iter 0 | Train Loss 0.01669
+[GPU1] Epoch 72 | Iter 0 | Train Loss 0.01609
+[GPU1] Epoch 73 | Iter 0 | Train Loss 0.01485
+[GPU1] Epoch 74 | Iter 0 | Train Loss 0.01431
+[GPU1] Epoch 75 | Iter 0 | Train Loss 0.01504
+[GPU1] Epoch 76 | Iter 0 | Train Loss 0.01381
+[GPU1] Epoch 77 | Iter 0 | Train Loss 0.01325
+[GPU1] Epoch 78 | Iter 0 | Train Loss 0.01349
+[GPU1] Epoch 79 | Iter 0 | Train Loss 0.01219
+[GPU1] Epoch 80 | Iter 0 | Train Loss 0.01135
+[GPU1] Epoch 81 | Iter 0 | Train Loss 0.01263
+[GPU1] Epoch 82 | Iter 0 | Train Loss 0.01065
+[GPU1] Epoch 83 | Iter 0 | Train Loss 0.01009
+[GPU1] Epoch 84 | Iter 0 | Train Loss 0.01134
+[GPU1] Epoch 85 | Iter 0 | Train Loss 0.01002
+[GPU1] Epoch 86 | Iter 0 | Train Loss 0.01161
+[GPU1] Epoch 87 | Iter 0 | Train Loss 0.00951
+[GPU1] Epoch 88 | Iter 0 | Train Loss 0.00997
+[GPU1] Epoch 89 | Iter 0 | Train Loss 0.00943
+[GPU1] Epoch 90 | Iter 0 | Train Loss 0.00960
+[GPU1] Epoch 91 | Iter 0 | Train Loss 0.00885
+[GPU1] Epoch 92 | Iter 0 | Train Loss 0.00864
+[GPU1] Epoch 93 | Iter 0 | Train Loss 0.00986
+[GPU1] Epoch 94 | Iter 0 | Train Loss 0.00897
+[GPU1] Epoch 95 | Iter 0 | Train Loss 0.00851
+[GPU1] Epoch 96 | Iter 0 | Train Loss 0.00871
+[GPU1] Epoch 97 | Iter 0 | Train Loss 0.00815
+[GPU1] Epoch 98 | Iter 0 | Train Loss 0.00735
+[GPU1] Epoch 99 | Iter 0 | Train Loss 0.00715
+[GPU1] Epoch 100 | Iter 0 | Train Loss 0.00615
+[GPU1] Epoch 101 | Iter 0 | Train Loss 0.00732
+[GPU1] Epoch 102 | Iter 0 | Train Loss 0.00693
+[GPU1] Epoch 103 | Iter 0 | Train Loss 0.00731
+[GPU1] Epoch 104 | Iter 0 | Train Loss 0.00687
+[GPU1] Epoch 105 | Iter 0 | Train Loss 0.00680
+[GPU1] Epoch 106 | Iter 0 | Train Loss 0.00773
+[GPU1] Epoch 107 | Iter 0 | Train Loss 0.00660
+[GPU1] Epoch 108 | Iter 0 | Train Loss 0.00741
+[GPU1] Epoch 109 | Iter 0 | Train Loss 0.00620
+[GPU1] Epoch 110 | Iter 0 | Train Loss 0.00573
+[GPU1] Epoch 111 | Iter 0 | Train Loss 0.00613
+[GPU1] Epoch 112 | Iter 0 | Train Loss 0.00613
+[GPU1] Epoch 113 | Iter 0 | Train Loss 0.00605
+[GPU1] Epoch 114 | Iter 0 | Train Loss 0.00495
+[GPU1] Epoch 115 | Iter 0 | Train Loss 0.00580
+[GPU1] Epoch 116 | Iter 0 | Train Loss 0.00486
+[GPU1] Epoch 117 | Iter 0 | Train Loss 0.00506
+[GPU1] Epoch 118 | Iter 0 | Train Loss 0.00568
+[GPU1] Epoch 119 | Iter 0 | Train Loss 0.00573
+[GPU1] Epoch 120 | Iter 0 | Train Loss 0.00505
+[GPU1] Epoch 121 | Iter 0 | Train Loss 0.00471
+[GPU1] Epoch 122 | Iter 0 | Train Loss 0.00472
+[GPU1] Epoch 123 | Iter 0 | Train Loss 0.00446
+[GPU1] Epoch 124 | Iter 0 | Train Loss 0.00425
+[GPU1] Epoch 125 | Iter 0 | Train Loss 0.00405
+[GPU1] Epoch 126 | Iter 0 | Train Loss 0.00413
+[GPU1] Epoch 127 | Iter 0 | Train Loss 0.00386
+[GPU1] Epoch 128 | Iter 0 | Train Loss 0.00365
+[GPU1] Epoch 129 | Iter 0 | Train Loss 0.00393
+[GPU1] Epoch 130 | Iter 0 | Train Loss 0.00388
+[GPU1] Epoch 131 | Iter 0 | Train Loss 0.00354
+[GPU1] Epoch 132 | Iter 0 | Train Loss 0.00357
+[GPU1] Epoch 133 | Iter 0 | Train Loss 0.00348
+[GPU1] Epoch 134 | Iter 0 | Train Loss 0.00385
+[GPU1] Epoch 135 | Iter 0 | Train Loss 0.00321
+[GPU1] Epoch 136 | Iter 0 | Train Loss 0.00366
+[GPU1] Epoch 137 | Iter 0 | Train Loss 0.00392
+[GPU1] Epoch 138 | Iter 0 | Train Loss 0.00289
+[GPU1] Epoch 139 | Iter 0 | Train Loss 0.00302
+[GPU1] Epoch 140 | Iter 0 | Train Loss 0.00309
+[GPU1] Epoch 141 | Iter 0 | Train Loss 0.00333
+[GPU1] Epoch 142 | Iter 0 | Train Loss 0.00335
+[GPU1] Epoch 143 | Iter 0 | Train Loss 0.00367
+[GPU1] Epoch 144 | Iter 0 | Train Loss 0.00310
+[GPU1] Epoch 145 | Iter 0 | Train Loss 0.00274
+[GPU1] Epoch 146 | Iter 0 | Train Loss 0.00302
+[GPU1] Epoch 147 | Iter 0 | Train Loss 0.00332
+[GPU1] Epoch 148 | Iter 0 | Train Loss 0.00262
+[GPU1] Epoch 149 | Iter 0 | Train Loss 0.00275
+[GPU1] Epoch 150 | Iter 0 | Train Loss 0.00325
+[GPU1] Epoch 151 | Iter 0 | Train Loss 0.00265
+[GPU1] Epoch 152 | Iter 0 | Train Loss 0.00291
+[GPU1] Epoch 153 | Iter 0 | Train Loss 0.00295
+[GPU1] Epoch 154 | Iter 0 | Train Loss 0.00325
+[GPU1] Epoch 155 | Iter 0 | Train Loss 0.00291
+[GPU1] Epoch 156 | Iter 0 | Train Loss 0.00298
+[GPU1] Epoch 157 | Iter 0 | Train Loss 0.00321
+[GPU1] Epoch 158 | Iter 0 | Train Loss 0.00274
+[GPU1] Epoch 159 | Iter 0 | Train Loss 0.00281
+[GPU1] Epoch 160 | Iter 0 | Train Loss 0.00296
+[GPU1] Epoch 161 | Iter 0 | Train Loss 0.00325
+[GPU1] Epoch 162 | Iter 0 | Train Loss 0.00293
+[GPU1] Epoch 163 | Iter 0 | Train Loss 0.00277
+[GPU1] Epoch 164 | Iter 0 | Train Loss 0.00263
+[GPU1] Epoch 165 | Iter 0 | Train Loss 0.00297
+[GPU1] Epoch 166 | Iter 0 | Train Loss 0.00268
+[GPU1] Epoch 167 | Iter 0 | Train Loss 0.00274
+[GPU1] Epoch 168 | Iter 0 | Train Loss 0.00285
+[GPU1] Epoch 169 | Iter 0 | Train Loss 0.00228
+[GPU1] Epoch 170 | Iter 0 | Train Loss 0.00268
+[GPU1] Epoch 171 | Iter 0 | Train Loss 0.00205
+[GPU1] Epoch 172 | Iter 0 | Train Loss 0.00234
+[GPU1] Epoch 173 | Iter 0 | Train Loss 0.00253
+[GPU1] Epoch 174 | Iter 0 | Train Loss 0.00260
+[GPU1] Epoch 175 | Iter 0 | Train Loss 0.00237
+[GPU1] Epoch 176 | Iter 0 | Train Loss 0.00260
+[GPU1] Epoch 177 | Iter 0 | Train Loss 0.00219
+[GPU1] Epoch 178 | Iter 0 | Train Loss 0.00230
+[GPU1] Epoch 179 | Iter 0 | Train Loss 0.00260
+[GPU1] Epoch 180 | Iter 0 | Train Loss 0.00224
+[GPU1] Epoch 181 | Iter 0 | Train Loss 0.00234
+[GPU1] Epoch 182 | Iter 0 | Train Loss 0.00262
+[GPU1] Epoch 183 | Iter 0 | Train Loss 0.00206
+[GPU1] Epoch 184 | Iter 0 | Train Loss 0.00229
+[GPU1] Epoch 185 | Iter 0 | Train Loss 0.00199
+[GPU1] Epoch 186 | Iter 0 | Train Loss 0.00197
+[GPU1] Epoch 187 | Iter 0 | Train Loss 0.00187
+[GPU1] Epoch 188 | Iter 0 | Train Loss 0.00184
+[GPU1] Epoch 189 | Iter 0 | Train Loss 0.00170
+[GPU1] Epoch 190 | Iter 0 | Train Loss 0.00156
+[GPU1] Epoch 191 | Iter 0 | Train Loss 0.00159
+[GPU1] Epoch 192 | Iter 0 | Train Loss 0.00160
+[GPU1] Epoch 193 | Iter 0 | Train Loss 0.00200
+[GPU1] Epoch 194 | Iter 0 | Train Loss 0.00150
+[GPU1] Epoch 195 | Iter 0 | Train Loss 0.00189
+[GPU1] Epoch 196 | Iter 0 | Train Loss 0.00193
+[GPU1] Epoch 197 | Iter 0 | Train Loss 0.00182
+[GPU1] Epoch 198 | Iter 0 | Train Loss 0.00214
+[GPU1] Epoch 199 | Iter 0 | Train Loss 0.00164
+[GPU1] Epoch 200 | Iter 0 | Train Loss 0.00175
+[GPU1] Epoch 201 | Iter 0 | Train Loss 0.00164
+[GPU1] Epoch 202 | Iter 0 | Train Loss 0.00178
+[GPU1] Epoch 203 | Iter 0 | Train Loss 0.00143
+[GPU1] Epoch 204 | Iter 0 | Train Loss 0.00199
+[GPU1] Epoch 205 | Iter 0 | Train Loss 0.00188
+[GPU1] Epoch 206 | Iter 0 | Train Loss 0.00157
+[GPU1] Epoch 207 | Iter 0 | Train Loss 0.00187
+[GPU1] Epoch 208 | Iter 0 | Train Loss 0.00177
+[GPU1] Epoch 209 | Iter 0 | Train Loss 0.00172
+[GPU1] Epoch 210 | Iter 0 | Train Loss 0.00136
+[GPU1] Epoch 211 | Iter 0 | Train Loss 0.00161
+[GPU1] Epoch 212 | Iter 0 | Train Loss 0.00193
+[GPU1] Epoch 213 | Iter 0 | Train Loss 0.00154
+[GPU1] Epoch 214 | Iter 0 | Train Loss 0.00155
+[GPU1] Epoch 215 | Iter 0 | Train Loss 0.00180
+[GPU1] Epoch 216 | Iter 0 | Train Loss 0.00178
+[GPU1] Epoch 217 | Iter 0 | Train Loss 0.00143
+[GPU1] Epoch 218 | Iter 0 | Train Loss 0.00175
+[GPU1] Epoch 219 | Iter 0 | Train Loss 0.00165
+[GPU1] Epoch 220 | Iter 0 | Train Loss 0.00158
+[GPU1] Epoch 221 | Iter 0 | Train Loss 0.00183
+[GPU1] Epoch 222 | Iter 0 | Train Loss 0.00113
+[GPU1] Epoch 223 | Iter 0 | Train Loss 0.00131
+[GPU1] Epoch 224 | Iter 0 | Train Loss 0.00213
+[GPU1] Epoch 225 | Iter 0 | Train Loss 0.00152
+[GPU1] Epoch 226 | Iter 0 | Train Loss 0.00165
+[GPU1] Epoch 227 | Iter 0 | Train Loss 0.00116
+[GPU1] Epoch 228 | Iter 0 | Train Loss 0.00150
+[GPU1] Epoch 229 | Iter 0 | Train Loss 0.00139
+[GPU1] Epoch 230 | Iter 0 | Train Loss 0.00179
+[GPU1] Epoch 231 | Iter 0 | Train Loss 0.00171
+[GPU1] Epoch 232 | Iter 0 | Train Loss 0.00151
+[GPU1] Epoch 233 | Iter 0 | Train Loss 0.00125
+[GPU1] Epoch 234 | Iter 0 | Train Loss 0.00161
+[GPU1] Epoch 235 | Iter 0 | Train Loss 0.00156
+[GPU1] Epoch 236 | Iter 0 | Train Loss 0.00164
+[GPU1] Epoch 237 | Iter 0 | Train Loss 0.00185
+[GPU1] Epoch 238 | Iter 0 | Train Loss 0.00142
+[GPU1] Epoch 239 | Iter 0 | Train Loss 0.00173
+[GPU1] Epoch 240 | Iter 0 | Train Loss 0.00152
+[GPU1] Epoch 241 | Iter 0 | Train Loss 0.00180
+[GPU1] Epoch 242 | Iter 0 | Train Loss 0.00172
+[GPU1] Epoch 243 | Iter 0 | Train Loss 0.00171
+[GPU1] Epoch 244 | Iter 0 | Train Loss 0.00128
+[GPU1] Epoch 245 | Iter 0 | Train Loss 0.00153
+[GPU1] Epoch 246 | Iter 0 | Train Loss 0.00125
+[GPU1] Epoch 247 | Iter 0 | Train Loss 0.00130
+[GPU1] Epoch 248 | Iter 0 | Train Loss 0.00148
+[GPU1] Epoch 249 | Iter 0 | Train Loss 0.00109
+[GPU1] Epoch 250 | Iter 0 | Train Loss 0.00127
+[GPU1] Epoch 251 | Iter 0 | Train Loss 0.00106
+[GPU1] Epoch 252 | Iter 0 | Train Loss 0.00155
+[GPU1] Epoch 253 | Iter 0 | Train Loss 0.00135
+[GPU1] Epoch 254 | Iter 0 | Train Loss 0.00120
+[GPU1] Epoch 255 | Iter 0 | Train Loss 0.00140
+[GPU1] Epoch 256 | Iter 0 | Train Loss 0.00147
+[GPU1] Epoch 257 | Iter 0 | Train Loss 0.00099
+[GPU1] Epoch 258 | Iter 0 | Train Loss 0.00150
+[GPU1] Epoch 259 | Iter 0 | Train Loss 0.00125
+[GPU1] Epoch 260 | Iter 0 | Train Loss 0.00115
+[GPU1] Epoch 261 | Iter 0 | Train Loss 0.00133
+[GPU1] Epoch 262 | Iter 0 | Train Loss 0.00151
+[GPU1] Epoch 263 | Iter 0 | Train Loss 0.00130
+[GPU1] Epoch 264 | Iter 0 | Train Loss 0.00141
+[GPU1] Epoch 265 | Iter 0 | Train Loss 0.00139
+[GPU1] Epoch 266 | Iter 0 | Train Loss 0.00122
+[GPU1] Epoch 267 | Iter 0 | Train Loss 0.00107
+[GPU1] Epoch 268 | Iter 0 | Train Loss 0.00100
+[GPU1] Epoch 269 | Iter 0 | Train Loss 0.00104
+[GPU1] Epoch 270 | Iter 0 | Train Loss 0.00099
+[GPU1] Epoch 271 | Iter 0 | Train Loss 0.00123
+[GPU1] Epoch 272 | Iter 0 | Train Loss 0.00142
+[GPU1] Epoch 273 | Iter 0 | Train Loss 0.00114
+[GPU1] Epoch 274 | Iter 0 | Train Loss 0.00130
+[GPU1] Epoch 275 | Iter 0 | Train Loss 0.00112
+[GPU1] Epoch 276 | Iter 0 | Train Loss 0.00104
+[GPU1] Epoch 277 | Iter 0 | Train Loss 0.00150
+[GPU1] Epoch 278 | Iter 0 | Train Loss 0.00149
+[GPU1] Epoch 279 | Iter 0 | Train Loss 0.00114
+[GPU1] Epoch 280 | Iter 0 | Train Loss 0.00117
+[GPU1] Epoch 281 | Iter 0 | Train Loss 0.00143
+[GPU1] Epoch 282 | Iter 0 | Train Loss 0.00133
+[GPU1] Epoch 283 | Iter 0 | Train Loss 0.00117
+[GPU1] Epoch 284 | Iter 0 | Train Loss 0.00118
+[GPU1] Epoch 285 | Iter 0 | Train Loss 0.00148
+[GPU1] Epoch 286 | Iter 0 | Train Loss 0.00108
+[GPU1] Epoch 287 | Iter 0 | Train Loss 0.00110
+[GPU1] Epoch 288 | Iter 0 | Train Loss 0.00125
+[GPU1] Epoch 289 | Iter 0 | Train Loss 0.00122
+[GPU1] Epoch 290 | Iter 0 | Train Loss 0.00177
+[GPU1] Epoch 291 | Iter 0 | Train Loss 0.00119
+[GPU1] Epoch 292 | Iter 0 | Train Loss 0.00138
+[GPU1] Epoch 293 | Iter 0 | Train Loss 0.00121
+[GPU1] Epoch 294 | Iter 0 | Train Loss 0.00110
+[GPU1] Epoch 295 | Iter 0 | Train Loss 0.00104
+[GPU1] Epoch 296 | Iter 0 | Train Loss 0.00106
+[GPU1] Epoch 297 | Iter 0 | Train Loss 0.00092
+[GPU1] Epoch 298 | Iter 0 | Train Loss 0.00099
+[GPU1] Epoch 299 | Iter 0 | Train Loss 0.00122
+[GPU1] Epoch 300 | Iter 0 | Train Loss 0.00097
