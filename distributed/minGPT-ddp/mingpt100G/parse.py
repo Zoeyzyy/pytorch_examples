@@ -12,7 +12,7 @@ parser.add_argument('--reciever')
 # 解析命令行参数
 args = parser.parse_args()
 
-pcap_name = "../../../"+ args.pcap_file +".txt"
+pcap_name = "./packet/"+ args.pcap_file +".txt"
 epochfile_name = "step.txt"
 
 # 读取文件
