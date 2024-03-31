@@ -111,8 +111,6 @@ class Trainer:
         return loss.item()
 
     def _run_epoch(self, epoch: int, dataloader: DataLoader, train: bool = True):
-        import datetime
-        print(datetime.datetime.now(), f"[GPU{self.global_rank}] Epoch {epoch}", file=open('step.txt','a'))
         dataloader.sampler.set_epoch(epoch)
         for iter, (source, targets) in enumerate(dataloader):
             step_type = "Train" if train else "Eval"
@@ -143,11 +141,17 @@ class Trainer:
     def train(self):
         with open("step.txt", "w") as f:
             f.truncate(0)
+        step_line = []
+        import datetime
         for epoch in range(self.epochs_run, self.config.max_epochs):
             epoch += 1
+            step_line.append(datetime.datetime.now(), f"[GPU{self.global_rank}] Epoch {epoch}")
             self._run_epoch(epoch, self.train_loader, train=True)
             if self.local_rank == 0 and epoch % self.save_every == 0:
                 self._save_snapshot(epoch)
             # eval run
             # if self.test_loader:
             #     self._run_epoch(epoch, self.test_loader, train=False)
+        with open('step.txt', 'w') as file:
+            for line in step_line:
+                file.write(line + '\n')
