@@ -1,10 +1,10 @@
-local_ip = 3
+local_ip = 6
 
 all_ip = [3, 4, 6]
 
 # 打开文件以写入模式
 with open("cmd.sh", "w") as file:
-    file.write("rm ../../../*.pcap \n")
+    file.write("rm ./packet/*.pcap \n")
     for ip in all_ip:
         # 向文件中写入内容
         if(ip != local_ip):
