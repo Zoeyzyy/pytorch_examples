@@ -118,6 +118,6 @@ plt.tight_layout()
 
 # 保存图像
 if accuracy == 8:
-    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.pcap_file + '.png')
+    plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 8.0)) + 's_' + args.pcap_file + '.png')
 else:
-    plt.savefig('sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.pcap_file + '.png')
+    plt.savefig('./by_time/sum_by_time_'+ str(10 ** -(accuracy - 9.0)) + 's_' + args.pcap_file + '.png')

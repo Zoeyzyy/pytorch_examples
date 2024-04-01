@@ -12,7 +12,7 @@ parser.add_argument('--reciever')
 # 解析命令行参数
 args = parser.parse_args()
 
-pcap_name = "../../../"+ args.pcap_file +".txt"
+pcap_name = "./packet/"+ args.pcap_file +".txt"
 epochfile_name = "step.txt"
 
 # 读取文件
@@ -102,5 +102,5 @@ plt.ylabel('Packet length Sum')
 plt.tight_layout()
 
 # 保存图像
-plt.savefig('sum_by_epoch_'+ args.pcap_file + '.png')
+plt.savefig('./epoch/sum_by_epoch_'+ args.pcap_file + '.png')
 
