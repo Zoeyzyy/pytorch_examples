@@ -53,8 +53,10 @@ if args.from_to == "from":
     sum_path = './Sum_by_time/Sum_by_Time_from3_' + str(10 ** -(accuracy - 9.0))
 else:
     sum_path = './Sum_by_time/Sum_by_Time_to3_' + str(10 ** -(accuracy - 9.0))
+    
+step_path = './step2time_index/step2time_index_3_' + str(accuracy)
 
-if not os.path.exists(sum_path):
+if not os.path.exists(sum_path) and os.path.exists(step_path):
     # 定义要搜索的文件夹路径
     folder_path = "./packet/"
 
