@@ -102,5 +102,5 @@ plt.ylabel('Packet length Sum')
 plt.tight_layout()
 
 # 保存图像
-plt.savefig('sum_by_epoch_'+ args.pcap_file + '.png')
+plt.savefig('./epoch/sum_by_epoch_'+ args.pcap_file + '.png')
 
