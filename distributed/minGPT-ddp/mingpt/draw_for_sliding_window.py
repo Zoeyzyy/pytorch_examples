@@ -78,7 +78,7 @@ def draw_sliding_window(window_i):
 
 if __name__ == "__main__":
     pool = multiprocessing.Pool(processes=40)
-    for window_i in range(0, 100):
+    for window_i in range(0, 300):
         pool.apply_async(draw_sliding_window, (window_i, ))
     pool.close()
     pool.join()
