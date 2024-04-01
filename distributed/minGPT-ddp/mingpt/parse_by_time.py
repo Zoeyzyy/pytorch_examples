@@ -14,7 +14,7 @@ parser.add_argument('--reciever')
 args = parser.parse_args()
 
 
-pcap_name = "../../../"+ args.pcap_file +".txt"
+pcap_name = "./packet/"+ args.pcap_file +".txt"
 epochfile_name = "step.txt"
 
 accuracy = (int)(args.accuracy)
