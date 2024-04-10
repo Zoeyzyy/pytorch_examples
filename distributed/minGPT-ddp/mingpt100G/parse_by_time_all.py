@@ -166,6 +166,8 @@ if not (os.path.exists(sum_path) and os.path.exists(step_path)):
 
     print("savetxt")
 else:
+    import datetime
+    print("else:", datetime.datetime.now())
     if args.from_to == "from":
         new_sums = np.loadtxt('./Sum_by_time/Sum_by_Time_from4_' + str(10 ** -(accuracy - 9.0))).tolist()
     else:
