@@ -42,15 +42,23 @@ def draw_TMs(time_step, TM_count):
     names = ["node3_from3", "node3_from4", "node3_from6", "node4_from3", "node4_from4", "node4_from6", "node6_from3", "node6_from4", "node6_from6",]
     filenames = ["./Sum_by_Time/Sum_by_time_" + name + f"_{time_step}" for name in names]  
     
+    datas = []
+    for filename in filenames:
+        if os.path.exists(filename):
+            with open(filename, 'r') as file:
+                lines = file.readlines()
+            datas.append(lines[start_index: start_index + TM_count + 1])
+        else:
+            datas.append([])
+    
     for i in range(TM_count):
-        index = start_index + i
+        index = i
         TM_data = []
         # 遍历filenames，如果文件存在
-        for filename in filenames:
-            if os.path.exists(filename):
+        for data in datas:
+            if index < len(data):
                 # 读取第index行的数据
-                line = read_th_line(filename, index)
-                TM_data.append(int(line))
+                TM_data.append(int(data[index]))
             else:
                 TM_data.append(0)
         draw_TM_picture(TM_data, i, time_step)
