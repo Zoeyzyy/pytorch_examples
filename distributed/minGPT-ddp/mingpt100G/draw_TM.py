@@ -9,7 +9,7 @@ generate_sum_by_time.py:
 1. 生成Sum_by_Time的数据0.01 0.001 0.0001粒度，以主节点对齐时间
 
 '''
-
+import concurrent.futures
 from util import count_lines, get_files_by_suffix, read_th_line
 
 def draw_TM_picture(TM_data, index, time_step):
@@ -55,6 +55,8 @@ def draw_TMs(time_step, TM_count):
 if __name__ == '__main__':
     time_steps = ["0_01", "0_001", "0_0001"]
     TM_count = [100, 100, 1000]
-    for i in range(len(time_steps)):
-        draw_TMs(time_steps[i], TM_count[i])
+    # 使用 ThreadPoolExecutor 创建一个线程池
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        # 使用 map 方法并行执行 draw 函数
+        executor.map(draw_TM_picture, time_steps, TM_count)
         
