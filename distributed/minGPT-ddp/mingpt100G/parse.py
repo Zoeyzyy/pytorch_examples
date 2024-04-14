@@ -52,7 +52,7 @@ def is_valid_time(time_str):
 # 遍历每一行
 for line in lines:
     # 检查是否包含[P.]，并提取时间和数字
-    if '[P.]' in line and 'length' in line:
+    if and 'length' in line:
         parts = line.split()
         time_str = parts[0]  # 时间字符串
         if is_valid_time(parts[0]):
