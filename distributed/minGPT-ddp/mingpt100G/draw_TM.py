@@ -14,14 +14,15 @@ from util import count_lines, get_files_by_suffix, read_th_line, create_file
 import os
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 
-def draw_TM_picture(TM_data, index, time_step):
+def draw_TM_picture(TM_data, index, time_step, norm):
     # 画矩阵
     matrix = np.array(TM_data).reshape(3, 3)
     
     plt.figure()
     # 绘制矩阵图
-    plt.imshow(matrix, cmap='Blues')  # 使用 Blues 颜色映射，数值越大颜色越深
+    plt.imshow(matrix, cmap='Blues', norm=norm)  # 使用 Blues 颜色映射，数值越大颜色越深
     plt.colorbar()  # 添加颜色条
     
     # 添加坐标轴标签
@@ -51,6 +52,15 @@ def draw_TMs(time_step, TM_count):
         else:
             datas.append([])
     
+    # 使用 Normalize() 函数设置颜色映射
+    vmin = 0
+    vmax = 0
+    for row in datas:
+        row_int = [int(x) for x in row]
+        if len(row_int) > 0:
+            vmax = max(vmax, max(row_int))
+    norm = mcolors.Normalize(vmin=vmin, vmax=vmax)
+    
     for i in range(TM_count):
         index = i
         TM_data = []
@@ -61,7 +71,7 @@ def draw_TMs(time_step, TM_count):
                 TM_data.append(int(data[index]))
             else:
                 TM_data.append(0)
-        draw_TM_picture(TM_data, i, time_step)
+        draw_TM_picture(TM_data, i, time_step, norm)
                 
         
 
