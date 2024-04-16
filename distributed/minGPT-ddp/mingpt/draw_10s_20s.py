@@ -43,7 +43,12 @@ def draw_time_series(time_step, index_count):
     float_time_step = float(time_step.replace('_', '.'))
     start_index = (int)(10 / float_time_step) # 10s开始的10s的时序图
     # 获得./Sum_by_time下的每一个以time_step结尾的文件名
-    names = ["node3_from3", "node3_from4", "node3_from6", "node4_from3", "node4_from4", "node4_from6", "node6_from3", "node6_from4", "node6_from6",]
+    names = ["node3_from3", "node3_from4", "node3_from6",
+             "node4_from3", "node4_from4", "node4_from6",
+             "node6_from3", "node6_from4", "node6_from6",
+             "node3_to3", "node3_to4", "node3_to6",
+             "node4_to3", "node4_to4", "node4_to6",
+             "node6_to3", "node6_to4", "node6_to6"]
     filenames = [ packet_path + "/Sum_by_Time/Sum_by_time_" + name + f"_{time_step}" for name in names]  
     
     for i in range(len(filenames)):
