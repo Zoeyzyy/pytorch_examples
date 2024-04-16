@@ -15,10 +15,17 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
+import matplotlib as mpl
+
+packet_path = "./packet"
+step_path = "./master"
 
 def draw_TM_picture(TM_data, index, time_step, norm):
     # 画矩阵
     matrix = np.array(TM_data).reshape(3, 3)
+    
+    # 设置全局字体大小
+    mpl.rcParams['font.size'] = 16
     
     plt.figure()
     # 绘制矩阵图
@@ -32,16 +39,17 @@ def draw_TM_picture(TM_data, index, time_step, norm):
     # 添加坐标轴含义
     plt.xlabel('sender')
     plt.ylabel('reciever')
-    create_file("./TM/"+ str(time_step) +"/TM_index" + str(index) + "_" + str(time_step) + ".png")
-    plt.savefig("./TM/"+ str(time_step) +"/TM_index" + str(index) + "_" + str(time_step) + ".png")
+    create_file( packet_path + "/TM/"+ str(time_step) +"/TM_index" + str(index) + "_" + str(time_step) + ".png")
+    plt.savefig( packet_path + "/TM/"+ str(time_step) +"/TM_index" + str(index) + "_" + str(time_step) + ".png")
     plt.close()
     
 # 计算TM的index，画TM_count个矩阵
 def draw_TMs(time_step, TM_count):
-    start_index = (int)(0.1 * count_lines(f"./Sum_by_Time/Sum_by_time_node3_from6_{time_step}"))
+    float_time_step = float(time_step.replace('_', '.'))
+    start_index = (int)(10 / float_time_step) # 10s开始的100个TM图
     # 获得./Sum_by_time下的每一个以time_step结尾的文件名
     names = ["node3_from3", "node3_from4", "node3_from6", "node4_from3", "node4_from4", "node4_from6", "node6_from3", "node6_from4", "node6_from6",]
-    filenames = ["./Sum_by_Time/Sum_by_time_" + name + f"_{time_step}" for name in names]  
+    filenames = [ packet_path + "/Sum_by_Time/Sum_by_time_" + name + f"_{time_step}" for name in names]  
     
     datas = []
     for filename in filenames:
@@ -77,8 +85,8 @@ def draw_TMs(time_step, TM_count):
 
 # 主函数
 if __name__ == '__main__':
-    time_steps = ["0_01", "0_001", "0_0001"]
-    TM_count = [100, 100, 1000]
+    time_steps = ["1_0", "0_1","0_01", "0_001"]
+    TM_count = [100, 100 ,100, 100]
     for time_step, TM_count in zip(time_steps, TM_count):
         draw_TMs(time_step, TM_count)
         
