@@ -15,8 +15,11 @@ for folder in $base_dir/packet_*; do
             if [ -f "$pcap_file" ]; then
                 # 提取文件名（不包含扩展名）
                 filename=$(basename -- "$pcap_file" .pcap)
-                # 运行tcpdump命令并将结果保存为同名的.txt文件
-                tcpdump -r "$pcap_file" > "./$filename.txt"
+                # 检查是否已经存在同名的.txt文件
+                if [ ! -e "$filename.txt" ]; then
+                    # 运行tcpdump命令并将结果保存为同名的.txt文件
+                    tcpdump -r "$pcap_file" > "./$filename.txt"
+                fi
             fi
         done
         # 返回上一级目录
