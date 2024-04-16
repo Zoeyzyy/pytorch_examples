@@ -14,6 +14,7 @@ step_path = "./packet_batch128"
 
 def generate_sum_by_time(time_step, node):
     filenames = get_files_by_suffix(packet_path, ".txt")
+    filenames = [filename for filename in filenames if "step" not in filename]
     
     master_step_line_number = count_lines( step_path + "/step_master.txt")
     start_time = read_th_line( step_path + "/step_master.txt", 0)
