@@ -9,8 +9,8 @@ generate_sum_by_time.py:
 import concurrent.futures
 from util import get_files_by_suffix, read_th_line, count_lines, time_to_float, remove_last_char_if_not_digit, create_file
 
-packet_path = "./packet_block32"
-step_path = "./packet_block32"
+packet_path = "./packet"
+step_path = "./master"
 
 def generate_sum_by_time(time_step, node):
     filenames = get_files_by_suffix(packet_path, ".txt")
@@ -44,7 +44,7 @@ def generate_sum_by_time(time_step, node):
             
             # 存储到文件中
             from_to = filename.split(".")[0]
-            storename = packet_path + "/Sum_by_Time/Sum_by_time_node" + str(node) + "_" + from_to + "_" + time_step
+            storename = "/Sum_by_Time/Sum_by_time_node" + str(node) + "_" + from_to + "_" + time_step
             create_file(storename)
             # sum_by_time记录到storefile中，每一行一个数据
             with open(storename, 'w') as f:
