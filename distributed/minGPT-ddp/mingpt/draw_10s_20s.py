@@ -20,8 +20,9 @@ packet_path = "./"
 step_path = "./master"
 
 def draw_time_serie(time_line, float_time_step, start_index, name):
-    # 设置全局字体大小
-    # mpl.rcParams['font.size'] = 16
+    #设置全局字体大小
+    mpl.rcParams['font.size'] = 16
+    
     x = [x * float_time_step for x in range(start_index, start_index + len(time_line))]
     y = [(int)(y) for y in time_line]
     
