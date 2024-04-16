@@ -21,12 +21,14 @@ step_path = "./master"
 
 def draw_time_serie(time_line, float_time_step, start_index, name):
     # 设置全局字体大小
-    mpl.rcParams['font.size'] = 16
+    # mpl.rcParams['font.size'] = 16
+    x = [x * float_time_step for x in range(start_index, start_index + len(time_line))]
+    y = [(int)(y) for y in time_line]
     
     plt.figure()
     # 绘制矩阵图
     bar_width = 1.0 / len(time_line)
-    plt.bar([x * float_time_step for x in range(start_index, start_index + len(time_line))], time_line, color='skyblue', width=bar_width)
+    plt.plot(x, y, color='skyblue')
     
     # 添加坐标轴含义
     plt.xlabel('Time(s)')
@@ -43,11 +45,13 @@ def draw_time_series(time_step, index_count):
     names = ["node3_from3", "node3_from4", "node3_from6", "node4_from3", "node4_from4", "node4_from6", "node6_from3", "node6_from4", "node6_from6",]
     filenames = [ packet_path + "/Sum_by_Time/Sum_by_time_" + name + f"_{time_step}" for name in names]  
     
-    for filename in filenames:
+    for i in range(len(filenames)):
+        filename = filenames[i]
+        name = names[i]
         if os.path.exists(filename):
             with open(filename, 'r') as file:
                 lines = file.readlines()
-                time_line = lines[start_index: start_index + index_count + 1]
+                time_line = lines[start_index: (int)(start_index + index_count + 1)]
                 draw_time_serie(time_line, float_time_step, start_index, name)
                 
         
